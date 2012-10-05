@@ -1,0 +1,1246 @@
+/* CSS FUER CAMPUSPLAN */
+@import url("/_layouts/studium/css/CampusPlan.css");
+
+
+ul{
+	margin-bottom:0.5em;
+	margin-left:2em;	
+}
+
+ol{
+	margin-bottom:0.5em;
+	margin-left:2em;	
+}
+
+
+
+div#metanavigation {
+    color:#4D4D4D!important;
+ }
+
+
+#content{
+padding-bottom:40px;
+
+}
+
+/* form immer auf volle Höhe aufziehen */
+#aspnetForm {
+    height:auto !important;
+    height:100% !important;
+    margin:0 auto;
+    min-height:100%;
+    position:relative;
+}
+
+
+
+
+
+
+/* Diese Styles sind fuer die linke Navi */
+#left_navigation {
+	margin: 0;
+	padding: 0;
+	width: 180px;
+	font-family: verdana;
+	font-size: 10px;
+	position: relative;
+	left: -2px;
+	top: -2px;
+	float: left;
+}
+
+#left_navigation ul {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#left_navigation ul li {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+#left_navigation a {
+	padding: 3px 5px 3px 15px;
+	text-decoration: none;
+	display: block;
+}
+
+#left_navigation a:hover {
+	text-decoration: none;
+}
+
+#left_navigation ul li ul a:hover {
+	text-decoration: underline;
+}
+
+#left_navigation .li_level_1_selected {
+	padding-bottom: 5px;
+	background-image: url(/_layouts/studium/img/left_navi_level_1.gif);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-color: #148D78;
+}
+
+#left_navigation .li_level_1_selected ul {
+	border-left: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	padding-bottom: 1px;
+}
+
+#left_navigation .li_level_1_selected ul li ul {
+	border-left: 0;
+	border-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#left_navigation .li_level_1_not_selected {
+	padding-bottom: 5px;
+	background-image: url(/_layouts/studium/img/left_navi_level_1.gif);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+}
+
+#left_navigation .li_has_child {
+	background-color: #CDEEEB;
+}
+
+#left_navigation .level_1_not_selected {
+	background-color:#FFFFFF;
+	border:2px solid #FFFFFF;
+	color:#808080;
+	font-weight:700;
+	margin-top:4px;
+}
+
+#left_navigation .level_1_selected {
+	background-color:#009682;
+	border:2px solid #FFFFFF;
+	color:#FFFFFF;
+	font-weight:700;
+	margin-top:4px;
+}
+
+#left_navigation .selected {
+	margin: 0px;
+	border-bottom: 2px solid #ffffff;
+	color: #000000;
+	background-color: #B8DDD6;
+	font-weight: bold;
+}
+
+#left_navigation .has_no_children {
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+#left_navigation .has_children_open {
+	background-image: url(/_layouts/studium/img/left_navi_link_open_white.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 7px;
+}
+
+#left_navigation ul li ul .has_children_open {
+	background-image: url(/_layouts/studium/img/left_navi_link_open_black.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 7px;
+}
+
+#left_navigation .has_children_closed {
+	padding-bottom: 0;
+	border-bottom: 0;
+	background-image: url(/_layouts/studium/img/left_navi_link_closed_white.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 7px;
+}
+
+#left_navigation .li_level_1_not_selected .has_children_closed {
+	padding-bottom: 0;
+	border-bottom: 0;
+	background-image: url(/_layouts/studium/img/left_navi_link_closed_gray.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 7px;
+}
+
+#left_navigation ul li ul .has_children_closed {
+	padding-bottom: 0;
+	border-bottom: 0;
+	background-image: url(/_layouts/studium/img/left_navi_link_closed_black.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 7px;
+}
+
+#left_navigation .item_not_selected {
+	color:#000000;
+	font-weight:400;
+	margin:0 0 0 10px;
+}
+
+#left_navigation .item_selected {
+	color:#000000;
+	font-weight:700;
+	margin:0 0 0 10px;
+}
+
+/* Erweiterung um Geschwister */
+#left_navigation ul li ul li {
+	background-color: #CDEEEB;
+}
+
+#left_navigation .not_selected  {
+	color: #000000;
+	background-color: #abcdef;
+}
+
+#left_navigation .li_shows_sibling {
+	background-color: #abcdef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.info_box {
+	margin: 0 1em 10px 10px; 
+	background-color: #ffffff;
+	background-image: url(/_layouts/studium/img/infobox_left_top.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	/* new */
+	width: 188px;
+}
+
+div.info_box_inner {
+/*	padding: 0.6em; */
+/*	width: 16em; */
+	/* new */
+	background: transparent url(/_layouts/studium/img/infobox_right_bottom.gif) no-repeat scroll right bottom;
+	color: #4D4D4D;
+	font-size: 0.91em;
+	line-height: 1.18em;
+	padding: 7px 10px 10px 9px;
+/*	width: 168px; */
+}
+
+div.info_box_inner ul {
+	list-style-type: none;
+	margin-bottom: -4px;
+	margin-left: 1px;
+	margin-top: -2px;
+	padding-left: 0px;
+	padding-bottom: 2px;
+}
+
+div.info_box_inner ul li {
+	line-height: 1.6em;
+}
+
+div.info_box_inner a:link, div.info_box_inner a:active, div.info_box_inner a:visited {
+	background: transparent url(/_layouts/studium/img/arrow_dunkelgruen.gif) no-repeat scroll  0pt 4px;
+	color: #009682;
+	padding-left: 6px;
+}
+
+div.infobox-inner a:hover {
+	text-decoration:underline;
+}
+
+
+
+
+.ms-inputuserfield {
+	position: relative;
+	left: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Diese Styles sind fuer Listen und Formulare --> core.css */
+.ms-vb a, .ms-vb2 a, .ms-GRStatusText a, .ms-vb-user a, .ms-disc a {
+	color:#148D78;
+	text-decoration:none;
+}
+
+th .ms-vb a, th .ms-vb, .ms-vh2-nofilter a, .ms-vh2-nofilter-icon a, .ms-vh2-nofilter, .ms-vh2-nofilter-icon, th.ms-vh2-nograd, th.ms-vh2-nograd-icon {
+	color:#000000;
+	font-family:tahoma,sans-serif;
+	font-weight:bold;
+	font-size:8pt;
+}
+
+.ms-vb a:visited, .ms-vb2 a:visited, .ms-GRStatusText a:visited, .ms-vb-user a:visited, .ms-disc a:visited {
+	color:#148D78;
+	text-decoration:none;
+}
+
+tr.ms-alternating tr td {
+	border:0px black none;
+}
+
+tr.ms-alternating td {
+	background-color:#FFFFFF;
+	border-top:1px #CDEEEB solid;
+	
+}
+
+.ms-vh, .ms-vh2, .ms-vh-icon, .ms-vh2-nofilter, .ms-vh2-nofilter-icon, .ms-viewheadertr .ms-vh-group, .ms-vh2-nograd, .ms-vh2-nograd-icon {
+	background-color:#FFFFFF;
+	background-image:none;
+	background-repeat:repeat-x;
+	border-left:inherit;
+	padding-bottom:0px;
+	padding-top:0px;
+	border-bottom:1px #CDEEEB solid;
+	border-width:0;
+}
+
+.ms-vh,.ms-vh2,.ms-vh-icon,.ms-vh-icon-empty,.ms-vhImage,.ms-vh2-nograd,.ms-vh2-nograd-icon,.ms-vh2-nofilter,.ms-vh2-nofilter-icon {
+	font-weight:normal;
+	color:#7f7f7f;
+	text-align:left;
+	text-decoration:none;
+	vertical-align:middle; 
+}
+
+tr.ms-viewheadertr {
+	background-color:#FFFFFF;
+}
+
+tr.ms-viewheadertr tr td {
+	border:0px black none;
+}
+
+.ms-viewheadertr tr th {
+	background-color:#FFFFFF;
+}
+
+.ms-menutoolbar {
+	background-color:#CDEEEB;
+	background-image:none;
+	background-repeat:repeat-x;
+	border-bottom:none;
+	height:22px;
+}
+
+.ms-menutoolbar td {
+	border-bottom:none;
+	border-top:none;
+}
+
+.ms-menutoolbar td a {
+	color:#666666;
+	font-family:tahoma;
+	font-size:8pt;
+}
+
+.ms-menutoolbar td td.ms-viewselector, .ms-menutoolbar td td.ms-viewselectorhover, .ms-toolbar td td.ms-viewselector, .ms-toolbar td td.ms-viewselectorhover, .ms-authoringcontrols td td.ms-viewselector, .ms-authoringcontrols td td.ms-viewselectorhover {
+	background-color:#CDEEEB;
+	background-image:none;
+	font-weight:bold;
+	padding:0px;
+}
+
+.ms-toolbar, .ms-viewtoolbar, .ms-formtoolbar {
+	color:#666666;
+	font-family:verdana;
+	font-size:8pt;
+	text-decoration:none;
+}
+
+table.ms-toolbar, table.ms-viewtoolbar {
+	background-color:#CDEEEB;
+	background-image:none;
+	
+}
+
+table.ms-toolbar {
+	border:1px solid #666666;
+}
+
+div.ms-viewselector, div.ms-viewselectorhover {
+	background-image:none;
+	border:1px solid #FFFFFF;
+}
+
+.ms-menubuttonactivehover{
+	margin:0px 1px 0px 1px;
+	padding:3px 7px 4px 7px;
+	background-image:none;
+	line-height:16px;
+	border:solid 1px #000000;
+	cursor:pointer;
+}
+
+.ms-splitbuttonhover{
+	background-image:none;
+	border-collapse:collapse;
+	margin:0px 1px 0px 1px;
+}
+
+.ms-splitbuttonhover .ms-splitbuttondropdown,.ms-splitbuttonhover .ms-splitbuttontext{
+	border:1px solid #000000;
+	cursor:pointer;
+}
+
+.ms-listheaderlabel {
+	color:#666666;
+}
+
+.ms-listviewtable 
+{
+	border: 1px #B8DDD6 solid;
+	background-color:#E5E5E5;
+}
+
+.ms-formbody {
+	font-family:verdana;
+	font-size:1em;
+	vertical-align:top;
+	background:#CDEEEB;
+	border-top:1px solid #d8d8d8;
+	padding:3px 6px 4px 6px;
+}
+
+.ms-formlabel {
+	font-size: 1em !important;	
+}
+
+.ms-formdescription a {
+	color:#666666;
+	text-decoration:none;
+}
+
+a.ms-addnew {
+	color:#148D78;
+}
+
+.ms-authoringcontrols {
+	color:#666666;
+	background-color:transparent;
+	font-family:tahoma;
+	font-size:8pt;
+	white-space:normal;
+}
+
+.ms-WPBorder, .ms-WPBorderBorderOnly {
+	border:1px solid #666666;
+}
+
+.ms-WPHeader td {
+	border-bottom:1px solid #666666;
+	border-collapse:collapse;
+}
+
+.WebPartWPQ2 .ms-separator {
+	
+	visibility:hidden;
+	display:none;	
+}
+
+.ms-quicklaunchouter {
+	visibility:hidden;
+	display:none;
+}
+
+/* ========== */
+/* wiki */
+.ms-wikieditouter {
+	position: static !important;
+	top: 0px;
+	left: 0px;
+	border-color:transparent;
+	border-style:none none none;
+	border-width:0px 0px 0px;
+}
+
+/* wiki hide incoming links */
+#ctl00_PlaceHolderMiniConsole_ctl00_ctl00_ctl00_RptControls_WikiIncomingLinks_LinkText {
+	visibility:hidden;
+	display:none;
+}
+
+.ms-wikieditouter .ms-separator {
+	visibility:hidden;
+}
+
+.ms-wikieditthird {
+	background:transparent;	
+}
+	
+.ms-pagebreadcrumb ,.ms-pagebreadcrumb a {
+	border-left:0px none transparent;
+	border-top:0px none transparent;
+	padding:3px 3px 3px 3px;
+	background:transparent;
+}
+/* ========== */
+
+/* Styles fuer Dozenten-Admin-WebPart */
+table.KIM_LPS_DozentenAdminWebPart_Overview th {
+	font-weight: bold;
+}
+
+table.KIM_LPS_DozentenAdminWebPart_Overview tr.eventLine {
+	behavior: url(/_layouts/studium/css/hover.htc); 
+	line-height: 150%;
+}
+
+table.KIM_LPS_DozentenAdminWebPart_Overview tr.eventLine:hover, tr.eventLine.hover { 
+	background-color: #D7E3E3; 
+}
+
+table.KIM_LPS_DozentenAdminWebPart_Overview th.hasFeatureCol, td .hasFeatureCol {
+	text-align: center;
+	width: 70px;
+}
+
+table.KIM_LPS_DozentenAdminWebPart_Overview td.operationCol {
+	text-align: center;
+	font-weight: bold;
+}
+
+table.KIM_LPS_DozentenAdminWebPart_CreateEditWorkspace_Operations td.buttonCol
+{
+    width:150px;
+    padding-bottom:10px;
+}
+
+table.KIM_LPS_DozentenAdminWebPart_CreateEditWorkspace_Operations td.helpTextCol
+{
+    padding-bottom:10px;
+}
+
+table.KIM_LPS_DozentenAdminWebPart_CreateEditWorkspace_Operations td.buttonCol input
+{
+    margin-left:10px; 
+    width:105px;
+}
+
+table.KIM_LPS_DozentenAdminWebPart_CreateEditWorkspace_Operations td.helpTextCol div
+{
+    width:70%;
+}
+
+/* Styles fuer VVZ-WebPart */
+/* WP */
+.level1Node 
+{ 
+	color:#666666!important;
+/*	font-size:10px; */
+	font-weight:bold!important;
+}
+
+/* WP */
+.level2Node 
+{ 
+	color:#666666!important;
+/*	font-size:10px; */
+}
+
+/* WP */
+.level3Node 
+{ 
+	color:#666666!important;
+	font-weight:normal!important;
+}
+
+/* WP */
+.selectedTreeNode
+{
+	color:#148D78!important;
+}
+
+/* WP */
+.tablerowOdd
+{
+	background-color:#FFFFFF!important;
+	padding:4px!important;
+}
+
+/* ? */
+.tablerowOdd td
+{
+	border-bottom:1px solid #B8DDD6!important;
+	padding:4px!important;
+}
+
+/* WP */
+.tablerowEven
+{
+	background-color:#E5E5E5!important;
+}
+
+/* ? */
+.tablerowEven td
+{
+	border-bottom:1px solid #B8DDD6!important;
+	padding:2px!important;
+}
+
+/* WP */
+.eventTable
+{
+	border-bottom:1px solid #B8DDD6!important;
+	border-top:1px solid #B8DDD6!important;
+	width:100%!important;
+	clear:both!important;
+	
+}
+
+
+
+/* WP */
+.TableRowHeading
+{
+	background-color:#E5E5E5!important;
+	font-size:1em!important;
+	font-weight:bold!important;
+	
+}
+
+.TableRowHeading td
+{
+	padding:4px!important;
+	
+}
+
+.eventDetailed
+{
+	line-height:1.3!important;
+	clear:both!important;
+}
+
+.eventDetailed td
+{
+	vertical-align:top!important;
+}
+/*
+.eventTitle
+{
+	background-color:#E5E5E5;
+	border-bottom:1px solid #B8DDD6;
+}
+*/
+.backButton_text
+{
+	font-weight:bold!important;
+	text-align:right!important;
+}
+
+.backButton_text:hover
+{
+	font-weight:bold!important;
+	text-align:right!important;
+	text-decoration:underline!important;
+}
+
+/* WP */
+.backButtontop
+{
+	float:left!important;
+}
+
+.backButtontop:hover
+{
+	float:left!important;
+	text-decoration:underline!important;
+}
+
+/* WP */
+.backButtonbottom
+{
+	float:left!important;
+}
+
+.backButtonbottom:hover
+{
+	float:left!important;
+	text-decoration:underline!important;
+}
+
+/* WP */
+.registerButton
+{
+	float: right!important;
+}
+
+/* WP */
+.unregisterButton
+{
+	float: right!important;
+}
+
+.VABbutton
+{
+	float:right!important;
+	margin-right:5px!important;
+}
+
+/* WP */
+.nextbuttontop
+{
+	float: right!important;
+	padding-bottom:2px!important;
+}
+
+/* WP */
+.nextbuttonbottom
+{
+	float: right!important;
+	padding-bottom:2px!important;
+}
+
+/* WP */
+.prevbuttontop
+{
+	float: left!important;
+	padding-bottom:2px!important;
+}
+
+/* WP */
+.prevbuttonbottom
+{
+	float: left!important;
+	padding-bottom:2px!important;
+}
+
+/* WP */
+.position
+{
+}
+
+/* WP */
+.positionbottom
+{
+}
+
+/* WP */
+.VorlesungsverzeichnisTable
+{
+	clear:both!important;
+	border-top: 1px #D9D9D9 solid!important;
+	margin-top:2px!important;
+	width:100%!important;
+}
+
+/* WP */
+.treeviewCell
+{
+	width:370px!important;
+	padding-right:7px!important;
+	padding-top:15px!important;
+}
+
+/* WP */
+.detailCell
+{
+	padding-top:15px!important;
+}
+
+/* WP */
+.termDropDownPanel
+{
+	font-size:1em!important;
+	font-weight:normal!important;
+	background-color:#E5E5E5!important;
+	border:1px solid #B3B3B3!important;
+	float:right!important;
+}
+
+/* WP */
+.termDropDownList
+{
+	color:#666666!important;
+}
+
+.termDropDownListLabel
+{
+	margin-right:10px!important;
+}
+
+/* WP */
+.eventListPanel
+{
+	border:1px solid #B8DDD6!important;
+}
+
+/* WP */
+.eventDetailPanel
+{
+	border:1px solid #B8DDD6!important;
+	float:right!important;
+	width:100%!important;
+}
+
+/* WP */
+.titelPanel
+{
+	background-color:#E5E5E5!important;
+}
+
+/* WP */
+.titelPanel div
+{
+	padding:2pt!important;
+	font-weight:bold!important;
+}
+
+.linkPanel
+{
+	margin:2pt!important;
+	line-height:1.3!important;
+	clear:both!important;
+}
+
+.linkPanelBottom
+{
+	margin:2pt!important;
+	padding-bottom:2pt!important;
+	line-height:1.3!important;
+	clear:both!important;
+}
+
+/* WP */
+.tabletop
+{
+	width:100%!important;
+	text-align:center!important;
+}
+
+/* WP */
+.tabletop tr td
+{
+	width:33%!important;
+}
+
+/* WP */
+.tablebottom
+{
+	width:100%!important;
+	text-align:center!important;
+}
+
+/* WP */
+.tablebottom tr td
+{
+	width:33%!important;	
+}
+
+/* WP */
+.typecell {
+/*	text-align:center;  
+	font-weight:bold; */
+}
+
+/* WP */
+.VABcell
+{
+/*	text-align:center; */
+}
+
+/* WP */
+.topNavigationPanel
+{
+	float:left!important;
+	font-weight:bold!important;
+}
+	
+/* WP */
+.VorlesungsverzeichnisButton
+{
+	margin-right:5pt!important;
+	font-size:12px!important;
+	padding:2pt!important;
+}
+
+/* WP */
+.VorlesungsverzeichnisButtonSelected
+{
+	margin-right:5pt!important;
+	font-size:12px!important;
+	color:#FFFFFF!important;
+	background-color:#148D78!important;
+	text-decoration:none!important;
+	padding:2pt!important;
+}
+
+/* WP */
+.VorlesungssucheButton
+{
+	margin-right:5pt!important;
+	font-size:12px!important;
+	padding:2pt!important;
+}
+
+/* WP */
+.VorlesungssucheButtonSelected
+{
+	margin-right:5pt!important;
+	padding:2pt!important;
+	font-size:12px!important;
+	color:#FFFFFF!important;
+	background-color:#148D78!important;
+	text-decoration:none!important;
+}
+
+.myeventsTable
+{
+	border:1px solid #B8DDD6!important;
+	width:100%!important;
+}
+
+/* ? */
+.eventDetailed hr
+{
+/*	color:#B8DDD6;
+	background-color:#B8DDD6; */
+	color:#B3B3B3!important;
+	background-color:#B3B3B3!important;
+	height:1px!important;
+	border:thin!important;
+}
+
+/* WP */
+.searchForm
+{
+	border:1px solid #B8DDD6!important;
+/*	color:#E5E5E5; */
+	font-weight:bold!important;
+/*	font-size:0,6875em; */
+	float:left!important;
+}
+
+/* WP */
+.searchForm .inputTitle
+{
+	width:355px!important;
+}
+
+/* WP */
+.searchForm .inputVeranstalter
+{
+	width:355px!important;
+}
+
+.searchForm input
+{
+	width:170px!important;
+	font-size:1em!important;
+	font-weight:normal!important;
+	background-color:#E5E5E5!important;
+	border:1px solid #B3B3B3!important;
+	font-family:Verdana,sans-serif!important;
+}
+
+.searchForm select
+{
+	width:170px!important;
+	font-size:1em!important;
+	font-weight:normal!important;
+	background-color:#E5E5E5!important;
+	border:1px solid #B3B3B3!important;
+}
+
+/* WP */
+.startSearch
+{
+	float:right!important;
+	margin-top:2px!important;
+	margin-right:2px!important;
+	margin-bottom:2px!important;
+}
+
+/* Styles fuer Modulkatalog-WebPart */
+.moduleDetailed
+{
+	margin-top:5px;
+	line-height: 1.3; 
+/*	border-left:1px solid #B8DDD6;
+	border-right:1px solid #B8DDD6;
+	border-top:1px solid #B8DDD6;
+	border-bottom:1px solid #B8DDD6; */
+}
+
+.moduleDetailed hr
+{
+	color:#B8DDD6;
+	background-color:#B8DDD6;
+	height:1px;
+	border:thin;
+}
+
+.moduleDetailed td
+{
+	vertical-align:top;
+}
+/*
+.moduleTitle
+{
+	background-color:#E5E5E5;
+	border-bottom:1px solid #B8DDD6;
+}
+*/
+.kontoOnTopDropDownLabel
+{
+	margin-right:10px;
+}
+
+.kontoOnTopDropDown
+{
+	color:#666666;
+}
+
+/* Styles fuer Studienfortschritt-WebPart */
+#d1787213971 { background-color:#7FFF99; font-weight:bold; }
+#d1787214000 { background-color:#7FFF99; font-weight:bold; }
+#d1787217827 { background-color:#64B5ED; font-weight:bold; }
+
+#d1787113997 { background-color:#FF5020; font-weight:bold; }
+
+#d1787017824 { background-color:#7FFF99; font-weight:bold; }
+#d1787017825 { background-color:#FFE030; font-weight:bold; }
+
+#d1838118383 { background-color:#FFE030; font-weight:bold; }
+
+#d1787614011 { background-color:#FF5020; font-weight:bold; }
+
+#d1756317597 { background-color:#7FFF99; font-weight:bold; }
+
+.basicStudentInfo
+{
+    background-color: #e5e5e5;
+    border: 2px;
+    border-color: #000000;
+    border-style: solid;
+    color: #000000;
+    font-size: 12px;
+    width: 761px;
+}
+
+.courseCatalogGeneral h3 { color: #000000; }
+
+.courseCatalogGeneral
+{
+    background-color: #E5E5E5;
+    border: 2px;
+    border-color:#000000;
+    border-style:solid;
+    color:#000000;
+    float: left;
+    margin-bottom:10px;
+    padding:2px;
+    position: relative;
+    text-align: center;
+    width: 753px;
+}
+
+.detailsDefinitionArea
+{
+    background-color: #88CC88;
+    height: 0px;
+    line-height: normal;
+    position: absolute;
+    text-align: justify;
+    top: 0px;
+    visibility: hidden;
+    width: 0px;
+}
+
+.detailsPresentationArea h2 { color:#000000; margin-bottom:5px; }
+
+.detailsPresentationArea
+{
+    background-color: #aaddff;
+    border: 2px;
+    border-color: #000000;
+    border-style: solid;
+    color: #000000;
+    position: absolute;
+    padding: 5px;
+    text-align: justify;
+    visibility: hidden;
+    width: 747px;
+    z-index: 10;
+}
+
+
+
+.legendDiv
+{
+  background-color:#e5e5e5;
+  border:2px;
+  border-color:#000000;
+  border-style:solid;
+  color:#000;
+  font-size:12px;
+  margin-bottom:10px;
+}
+
+.legendTable td { padding: 2px; }
+.legendTable th { width:20px; border:1px; border-color:#000; border-style:solid; }
+
+.macroModule
+{
+    background-color: #999999;
+    border:1px;
+    border-color:#000000;
+    border-style:solid;
+    color: #000000;
+    float: left;
+    margin: 2px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+
+.metaCourseCatalog
+{
+    background-color: #ffffff;
+    float: left;
+    position: relative;
+    top: 0px;
+    width: 761px;
+}
+
+.module
+{
+    background-color: #ffffff;
+    border: 1px;
+    border-color:#000000;
+    border-style:solid;
+    color: #000000;
+    cursor: pointer;
+    margin: 3px;
+    padding: 2px;
+}
+
+table.detailsTable
+{
+    background-color:#cdeee8;
+    border:2px; 
+    border-color:#000000; 
+    border-style:solid; 
+    border-collapse:collapse;
+    font-size:12px;
+}
+
+table.detailsTable th { vertical-align:top; padding:5px; }
+table.detailsTable td { text-align:justify; padding:5px; }
+
+.green { background-color:#7FFF00; }
+
+
+
+div.fzkbox {
+	background:transparent url(/_layouts/studium/img/logo_fzk.gif) no-repeat;
+	color:#4D4D4D;
+	font-size:1em;
+	line-height:1.15em;
+	margin:0pt auto;
+	padding-left:38px;
+	width:128px;
+}
+div.fzkbox a {
+/*	text-decoration:underline;*/
+	display:inline;
+	padding:0px;
+}
+div.fzkbox span.klein {
+	font-size:0.9em;
+	line-height:1.2em;
+}
+div.fzkbox span.klein a {
+	color:#4D4D4D;
+/*	text-decoration:underline;*/
+}
+div.fzkbox a:hover, div.fzkbox span.klein a:hover {
+	text-decoration:underline;
+}
+div.unibox {
+	background:transparent url(/_layouts/studium/img/logo_uni.gif) no-repeat;
+	color:#4D4D4D;
+	font-size:1em;
+	line-height:1.15em;
+	margin:0pt auto;
+	padding-left:38px;
+	padding-top:2px;
+	width:128px;
+}
+div.unibox a {
+/*	text-decoration:underline;*/
+	display:inline;
+	padding:0px;
+}
+div.unibox a:hover {
+	text-decoration:underline;
+}
+div.small-line {
+	background-color:#B3B3B3;
+	font-size:1px;
+	height:1px;
+	margin: 10px 0px 10px 0px;
+	padding:0pt;
+}

@@ -1,0 +1,2202 @@
+﻿html,body {
+    height:100%;
+}
+* {
+/*    border:0; */
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+img {
+    border:0;
+}
+body {
+    background:#ffffff url(../images/bg_body_V2.jpg) center 120px no-repeat;
+    color:#000000;
+    font-size:.6875em;
+    line-height:1em;
+    overflow:-moz-scrollbars-vertical; /* Keine Spruenge im FF */
+}
+html>/**/body {
+    overflow-x: auto;
+}
+.faq_question {
+    margin-bottom: 4px;
+    padding-right:10px;
+    color:#009682;
+    display: inline-block;
+    background-image:url(/_layouts/studium/img/faq.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.faq_answer {
+    display: block;
+    margin-bottom: 1em;
+}
+.foto img {
+    border: 1px solid #b3b3b3;
+}
+/* Farben der allgemeinen Links */
+a:link,a:active,a:visited {
+    color:#009682;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+/* Wrapper */
+div#wrapper {
+    background:url(/_layouts/studium/img/bg_wrapper_V2.png) 0 0 repeat-y;
+    width: 1015px;
+    height:auto !important;
+    height:100%;
+    margin:0 auto;
+    min-height:100%;
+    position:relative;
+}
+* html div#wrapper {
+    background:url(../images/bg_wrapper_V2.gif) 0 0 repeat-y;
+}
+/* Metanavigation */
+div#metanavigation {
+    color:#B3B3B3;
+    padding-right:19px;
+    position:absolute;
+    z-index:2;
+    font-size:.9091em;
+    height:2.5455em;
+    line-height:2.5455em;
+    text-align:right;
+    width:980px;}
+div#metanavigation a:link,div#metanavigation a:active,div#metanavigation a:visited {
+    color:#4D4D4D;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+div#metanavigation a:hover {
+    text-decoration:underline;
+}
+
+/* Head */
+div#head {
+        height:108px;
+    width:1015px;
+    background-color:#ffffff;
+    padding-top: 8px;
+    }
+div#logo {
+    background-color:#fff;
+    float:left;
+        height:108px;
+    width:204px;
+    }
+div#head-image {
+    background:url(../images/01_V2.jpg) 0 0 no-repeat; /* Statt festes JPG z.B. "random_image.php" nutzten */
+
+    float:left;
+        height:108px;
+    width:811px;
+    }
+
+div#head-text {
+    background-color:#fff;
+    float:left;
+    font-size:.9091em;
+    font-weight:700;
+    height:33px;
+    line-height:1.25em;
+        margin-top:74px;
+        overflow:hidden;
+}
+.big_font{
+    font-size:1.09em !important;
+    height:27px !important;
+    padding-top:6px;
+}
+* html .big_font{ /* IE 6 */
+    height:32px !important;
+}
+div#head-text-corner {
+    background:url(/_layouts/studium/img/head_text_corner.png) 0 0 no-repeat;
+    float:left;
+    height:33px;
+        margin-top:74px;
+        width:15px;
+}
+*:first-child+html div#head-text, *:first-child+html div#head-text-corner {
+        margin-top:75px;
+    }
+* html div#head-text,* html div#head-text-corner {
+    background:#fff;
+    height:34px;
+        padding-top:0px;
+    }
+* html div#head-text-corner {
+    position:absolute;
+}
+
+div#head-text-alt {
+    background-color:#fff;
+    float:left;
+    font-size:.9091em;
+    font-weight:700;
+    height:35px;
+    line-height:1.25em;
+    margin-top:25px;
+    overflow:hidden;
+}
+div#head-text-alt-corner {
+    background:url(/_layouts/studium/img/head_text_corner.png) 0 0 no-repeat;
+    float:left;
+    height:35px;
+    margin-top:25px;
+    width:15px;
+}
+*:first-child+html div#head-text-alt, *:first-child+html div#head-text-alt-corner {
+    margin-top:27px;
+}
+* html div#head-text-alt,* html div#head-text-alt-corner {
+    background:#fff;
+    height:34px;
+    margin-top:25px;
+    padding-top:1px;
+}
+* html div#head-text-corner,* html div#head-text-alt-corner {
+    background:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src='/_layouts/studium/img/head_text_corner.png');
+}
+div#head-text a,div#head-text-alt a {
+    background:#fff;
+    color:#000000;
+    display:block;
+    line-height:1.25em;
+    padding:4px 0 4px 10px;
+    text-decoration:none;
+}
+/* Horizontales Menue */
+div#nav-horizontal {
+    background:url(../images/nav_hor_bg.gif) 0 0 no-repeat;
+    height:32px;
+    width:795px;
+}
+div#nav-horizontal a.horizontal-item {
+    background:url(../images/top_item.gif) 0 0 no-repeat;
+    color:#fff;
+    display:block;
+    float:left;
+    font-weight:700;
+    height:32px;
+    line-height:31px;
+    padding-left:5px;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    width:92px;
+}
+div#nav-horizontal a.horizontal-item:hover {
+    background:url(../images/top_item.gif) 0 -32px no-repeat;
+    color:#000;
+}
+div#nav-horizontal a.horizontal-item-inactive {
+    background:url(../images/top_item.gif) 0 -64px no-repeat;
+    color:#808080;
+    display:block;
+    float:left;
+    font-weight:700;
+    height:32px;
+    line-height:31px;
+    padding-left:5px;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    width:92px;
+}
+div#nav-horizontal a.horizontal-item-inactive:hover {
+    background:url(../images/top_item.gif) 0 -32px no-repeat;
+    color:#000;
+}
+div#nav-horizontal a.horizontal-item-active {
+    background:url(../images/top_item.gif) 0 0 no-repeat;
+    color:#fff;
+    display:block;
+    float:left;
+    font-weight:700;
+    height:32px;
+    line-height:31px;
+    padding-left:5px;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    width:92px;
+}
+div#nav-horizontal a.horizontal-item-long {
+    background:url(../images/top_long.gif) 0 0 no-repeat;
+    color:#fff;
+    display:block;
+    float:left;
+    font-weight:700;
+    height:32px;
+    line-height:31px;
+    padding-left:5px;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    width:208px;
+}
+div#nav-horizontal a.horizontal-item-long:hover {
+    background:url(../images/top_long.gif) 0 -32px no-repeat;
+    color:#000;
+}
+div#nav-horizontal a.horizontal-item-long-inactive {
+    background:url(../images/top_long.gif) 0 -64px no-repeat;
+    color:#808080;
+    display:block;
+    float:left;
+    font-weight:700;
+    height:32px;
+    line-height:31px;
+    padding-left:5px;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    width:208px;
+}
+div#nav-horizontal a.horizontal-item-long-inactive:hover {
+    background:url(../images/top_long.gif) 0 -32px no-repeat;
+    color:#000;
+}
+div#nav-horizontal a.horizontal-item-long-active {
+    background:url(../images/top_long.gif) 0 0 no-repeat;
+    color:#fff;
+    display:block;
+    float:left;
+    font-weight:700;
+    height:32px;
+    line-height:31px;
+    padding-left:5px;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    width:208px;
+}
+
+
+/* Horizontales Menue 2 */
+
+div#nav-horizontal-2 {
+    height:28px;
+    padding-top:2px;
+    z-index:2;
+    left:188px;
+    right:0;
+    border-bottom:2px solid #fff;
+    text-align: center;
+    overflow: hidden;
+        margin: 16px 16px 0 0;
+    }
+* html div#nav-horizontal-2 a:hover {
+    height:28px;
+}
+div#nav-horizontal-2 a:hover {
+    text-decoration: none;
+}
+
+
+/* INAKTIV */
+div#nav-horizontal-2 .horizontal-item-inactive {
+    cursor: pointer;
+}
+div#nav-horizontal-2 .horizontal-item-inactive-start {
+    float:left;
+    background:url(../images/top_item_left.gif) 0 -66px no-repeat;
+    height:28px;
+    width:4px;
+}
+div#nav-horizontal-2 .horizontal-item-inactive:hover .horizontal-item-inactive-start {
+    background:url(../images/top_item_left.gif) 0 -34px no-repeat;
+}
+div#nav-horizontal-2 .horizontal-item-inactive-text {
+    float:left;
+    color:#808080;
+    font-weight:700;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    line-height:29px;
+    background-color: #cccccc;
+    height:28px;
+}
+div#nav-horizontal-2 .horizontal-item-inactive:hover .horizontal-item-inactive-text {
+    color:#000;
+    background-color:#b3e0da;
+}
+div#nav-horizontal-2 .horizontal-item-inactive-end {
+    float:left;
+    background:url(../images/top_item_right.gif) 0 -66px no-repeat;
+    width:6px;
+    height:28px;
+}
+div#nav-horizontal-2 .horizontal-item-inactive:hover .horizontal-item-inactive-end {
+    background:url(/_layouts/studium/img/top_item_right.gif) 0 -34px no-repeat;
+}
+
+/* AKTIV */
+div#nav-horizontal-2 .horizontal-item-active {
+    cursor: pointer;
+}
+div#nav-horizontal-2 .horizontal-item-active-start {
+    float:left;
+    background:url(/_layouts/studium/img/top_item_left.gif) 0 -2px no-repeat;
+    height:28px;
+    width:4px;
+}
+div#nav-horizontal-2 .horizontal-item-active:hover .horizontal-item-active-start {
+    background:url(/_layouts/studium/img/top_item_left.gif) 0 -34px no-repeat;
+}
+div#nav-horizontal-2 .horizontal-item-active-text {
+    float:left;
+    color:#fff;
+    font-weight:700;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    line-height:29px;
+    background-color:#009682;
+    height:28px;
+}
+div#nav-horizontal-2 .horizontal-item-active:hover .horizontal-item-active-text {
+    color:#000;
+    background-color:#b3e0da;
+}
+div#nav-horizontal-2 .horizontal-item-active-end {
+    float:left;
+    background:url(/_layouts/studium/img/top_item_right.gif) 0 -2px no-repeat;
+    width:6px;
+    height:28px;
+}
+div#nav-horizontal-2 .horizontal-item-active:hover .horizontal-item-active-end {
+    background:url(/_layouts/studium/img/top_item_right.gif) 0 -34px no-repeat;
+}
+
+/* LETZTES INAKTIV */
+div#nav-horizontal-2 .last-horizontal-item-inactive {
+    cursor: pointer;
+}
+div#nav-horizontal-2 .last-horizontal-item-inactive-start {
+    float:left;
+    background:url(/_layouts/studium/img/top_item_left.gif) 0 -66px no-repeat;
+    height:28px;
+    width:4px;
+}
+div#nav-horizontal-2 .last-horizontal-item-inactive:hover .last-horizontal-item-inactive-start {
+    background:url(/_layouts/studium/img/top_item_left.gif) 0 -34px no-repeat;
+}
+div#nav-horizontal-2 .last-horizontal-item-inactive-text {
+    color:#808080;
+    font-weight:700;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    line-height:29px;
+    background-color: #cccccc;
+    height:28px;
+}
+* html div#nav-horizontal-2 .last-horizontal-item-inactive-text {
+    position: relative;
+    left: -3px;
+    overflow:hidden;
+}
+div#nav-horizontal-2 .last-horizontal-item-inactive:hover .last-horizontal-item-inactive-text {
+    color:#000;
+    background-color:#b3e0da;
+}
+div#nav-horizontal-2 .last-horizontal-item-inactive-end {
+    float:right;
+    background:url(/_layouts/studium/img/top_item_end_V2.gif) 0 -66px no-repeat;
+    height:28px;
+    width:14px;
+}
+* html div#nav-horizontal-2 .last-horizontal-item-inactive-end {
+    position: absolute;
+    z-index: 100;
+    right:-1px;
+    top: 27px;
+}
+div#nav-horizontal-2 .last-horizontal-item-inactive:hover .last-horizontal-item-inactive-end {
+    background:url(/_layouts/studium/img/top_item_end_V2.gif) 0 -34px no-repeat;
+}
+
+/* LETZTES AKTIV */
+div#nav-horizontal-2 .last-horizontal-item-active {
+    cursor: pointer;
+}
+div#nav-horizontal-2 .last-horizontal-item-active-start {
+    float:left;
+    background:url(/_layouts/studium/img/top_item_left.gif) 0 -2px no-repeat;
+    height:28px;
+    width:4px;
+}
+div#nav-horizontal-2 .last-horizontal-item-active:hover .last-horizontal-item-active-start {
+    background:url(/_layouts/studium/img/top_item_left.gif) 0 -34px no-repeat;
+}
+div#nav-horizontal-2 .last-horizontal-item-active-text {
+    color:#fff;
+    font-weight:700;
+    text-decoration:none;
+    text-transform:uppercase;
+    vertical-align:middle;
+    line-height:29px;
+    background-color:#009682;
+    height:28px;
+}
+* html div#nav-horizontal-2 .last-horizontal-item-active-text {
+    position: relative;
+    left: -3px;
+    overflow:hidden;
+}
+div#nav-horizontal-2 .last-horizontal-item-active:hover .last-horizontal-item-active-text {
+    color:#000;
+    background-color:#b3e0da;
+}
+
+div#nav-horizontal-2 .last-horizontal-item-active-end {
+    float:right;
+    background:url(/_layouts/studium/img/top_item_end_V2.gif) 0 -2px no-repeat;
+    height:28px;
+    width:14px;
+}
+* html div#nav-horizontal-2 .last-horizontal-item-active-end {
+    position: absolute;
+    z-index: 100;
+    right:-1px;
+    top: 27px;
+}
+div#nav-horizontal-2 .last-horizontal-item-active:hover .last-horizontal-item-active-end {
+    background:url(/_layouts/studium/img/top_item_end_V2.gif) 0 -34px no-repeat;
+}
+
+
+
+/* KeyVisual */
+div#key-visual {
+    height:108px;
+    top:8px;
+    position:absolute;
+    right:0;
+    z-index:1;
+}
+* html div#key-visual {
+    right:-1px;
+}
+
+/* Footer */
+div#footer-container {
+    height:53px;
+    left:0;
+    position:absolute;
+        width: 1015px;
+    background:#ffffff url(/_layouts/studium/img/bg_footer_V2.png) left top no-repeat;
+        bottom:0;
+}
+* html div#footer-container {
+    background:#ffffff url(/_layouts/studium/img/bg_footer_V2.gif) left top no-repeat;
+}
+div#footer {
+/*    background-color:#fef2d6;*/
+    height:23px;
+        width: 1015px;
+    }
+div#footer-text {
+    font-size:.8182em;
+    height:21px;
+    float:left;
+    width:965px;
+}
+div#footer-corner {
+    display: none;
+}
+div#footer-content {
+    border-top:1px #b3b3b3 solid;
+    height:20px;
+    line-height:2.2727em;
+    margin-left:204px;
+        width:780px;
+    }
+div#footer-content a:link,div#footer-content a:active,div#footer-content a:visited {
+    color:#808080;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+div#footer-content a:hover {
+    text-decoration:underline;
+}
+.footer-left {
+    float:left;
+    margin-right:15px;
+}
+.footer-right {
+    float:right;
+}
+
+/* Kleiner Informationstext */
+div#owner {
+    height:15px;
+    text-align:left;
+        margin:5px auto 0;
+    width:1015px;
+    }
+span#owner-text {
+    color:#4D4D4D;
+    padding-left:32px;
+    font-size:.82em;
+    line-height:1.5em;
+}
+span#owner-text a {
+    color:#4D4D4D;
+}
+
+/* 10px Abstand für Head/Foot - auch zum clear'en der Floats! */
+div.spacer {
+    background-color:#e5e5e5;
+    border-left:2px #fff solid;
+    border-right:2px #fff solid;
+    clear:both;
+    height:10px;
+    margin-left: 16px;
+    width:979px;}
+
+/* Container */
+div#container {
+    padding-bottom:53px;
+    margin-left: 16px;
+    border-left:2px #fff solid;
+    width:979px;
+}
+/* Linke Spalte */
+div#left-row {
+    float:left;
+    margin-right:5px;
+    width:181px;
+}
+
+/* Mittlere Spalte (Content) */
+div#middle-row {
+    
+    background-color:#fff;
+    padding:10px;
+    margin:0 10px 10px 0;
+    float:left;
+    width:564px;
+}
+* html div#middle-row { /* IE 6 */
+    padding:10px 0 10px 10px;
+/*    width:541px;*/
+    width: 564px;
+}
+
+/* Rechte Spalte */
+div#right-row {
+    float:right;
+    width:199px;
+}
+/* Clear'er */
+.clear {
+    clear:both;
+    height:0;
+    overflow:hidden;
+}
+
+/* Boxen fuer die rechte Spalte */
+div.infobox {
+    background:#fff url(/_layouts/studium/img/infobox_right_top_V2.gif) right top no-repeat;
+    margin-bottom:10px;
+    width:188px;
+}
+.infobox-deko {
+    background:#b3e0da url(/_layouts/studium/img/infobox_deko_right_top.png) right top no-repeat;
+    padding-left:8px;
+    padding-bottom:4px;
+    height:20px;
+    line-height:24px;
+}
+div.infobox-inner {
+    background:url(/_layouts/studium/img/infobox_left_bottom_V2.gif) left bottom no-repeat;
+    color:#000000;
+    font-size:.91em;
+    line-height:1.18em;
+    padding:7px 10px 10px 9px;
+    width:168px;
+    overflow: hidden;
+}
+div.infobox-inner img {
+    margin-left:1px;
+}
+div.infobox-inner a:link,div.infobox-inner a:active,div.infobox-inner a:visited {
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 5px no-repeat;
+    color:#009682;
+    padding-left:6px;
+}
+div.infobox-inner a:hover {
+    text-decoration:underline;
+}
+
+/* Unsortierte Liste in den Infoboxen */
+.infobox-ul {
+/*    list-style-type:none; */
+    margin-bottom:-4px;
+    margin-left:1px;
+    margin-top:-2px;
+}
+.infobox-ul li {
+    line-height:1.6em;
+    margin-left:1.6em;
+}
+.infobox-ul li a:link,.infobox-ul li a:active,.infobox-ul li a:visited {
+    list-style-type:none;
+    
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 4px no-repeat;
+    color:#009682;
+    padding-left:6px;
+}
+.infobox-ul li a:hover {
+    text-decoration:underline;
+}
+
+.infobox ul {
+/*    list-style-type:none; */
+    margin-bottom:-4px;
+    margin-left:1px;
+    margin-top:-2px;
+}
+.infobox ul li {
+    line-height:1.6em;
+    margin-left:1.6em;
+}
+.infobox ul li a:link,.infobox ul li a:active,.infobox ul li a:visited {
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 4px no-repeat;
+    color:#009682;
+    padding-left:6px;
+}
+.infobox ul li a:hover {
+    text-decoration:underline;
+}
+
+/* Diverse Styles fuer die Infobox */
+.infobox img {
+/*    border:1px #b3b3b3 solid;*/
+    margin:4px 5px 4px 0;
+}
+.infobox .hoch {
+    line-height:1.95em;
+}
+.infobox .mittel {
+    line-height:1.6em;
+}
+.infobox .padding4 {
+    padding-bottom:4px;
+}    
+.infobox .klein {
+    line-height:1.25em;
+    padding-bottom:4px;
+}
+.ein-em {
+    line-height:1em;
+}
+.infobox .ein-em {
+    line-height:1em;
+}
+div.infobox-normal {
+    line-height:1.35em;
+}
+div.infobox-normal a:link,div.infobox-normal a:active,div.infobox-normal a:visited {
+    background:none;
+    color:#009682;
+    padding-left:0;
+    text-decoration:underline;
+}
+div.infobox-normal a:hover {
+    text-decoration:none;
+}
+.infobox_pilist_headline {
+    padding-left:0 !important;
+    background:none !important;
+    color:#000 !important;
+}
+
+/* Überschriften */
+h1 {
+    border-bottom:1px solid #ccc;
+    color:#000000;
+    font-size:1.27em;
+    margin:-1px 0 14px;
+    padding-bottom:10px;
+    padding-top:10px; /* neu */
+    line-height:16px;
+}
+h2 {
+    color:#000000;
+    font-size:1.0909em;
+    font-weight:700;
+    line-height:16px;
+    margin:0;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+h3 {
+    color:#808080;
+    font-size:1.0909em;
+    font-weight:700;
+    line-height:16px;
+    margin:0;
+    padding-bottom:8px;
+}
+h4 {
+    background:url(/_layouts/studium/img/headline_bg.gif) center left repeat-x;
+    font-size:1em;
+    height:1.45em;
+    margin-bottom:5px;
+}
+html>/**/body h4:first-line {
+    background-color:#ffffff;
+}
+/* Formatierungen für Content */
+div#content img {
+/*    border:1px #b3b3b3 solid; */
+}
+div.text {
+    color:#000000;
+    line-height:1.45em;
+    margin:-3px 0 19px;
+    overflow:hidden;
+}
+div.rubriktext {
+    color:#000000;
+    line-height:1.45em;
+    margin:-3px 0 12px;
+}
+div.formular {
+    color:#000000;
+    line-height:1.45em;
+}
+div.text a:link,div.text a:active,div.text a:visited {
+    text-decoration:underline;
+}
+div.text a:hover {
+    text-decoration:none;
+}
+div.text ul {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+}
+div.text ul li {
+    list-style-image: url(/_layouts/studium/img/dynimg.php?color=009682);
+}
+div.text ol {
+    margin-left: 3em;
+}
+div.text pre, div.text pre * {
+    font-family: monospace;
+    font-size: 11px;
+    color: #000000;
+}
+div.text code, div.text code * {
+    font-family: monospace;
+    font-size: 11px;
+    color: #000000;
+}
+/* Erste Zeile - aka "Sub-Headline" */
+div.firstline {
+    color:#000000;
+    line-height:1.45em;
+    margin:-4px 0 13px;
+    font-weight: bold;
+}
+
+/* Beschreibungen fuer Bilder */
+.bild-desc {
+    color:#000000;
+    font-size:.909em;
+    line-height:1.2em;
+/*    margin-left:-1px; */
+    margin-right: 5px;
+    margin-top:7px;
+    padding-bottom:3px;
+}
+
+/* Für zwei Spalten Content */
+div.box-left {
+    float:left;
+    width:190px;
+}
+div.box-right {
+    float:right;
+    width:372px;
+}
+* html div.box-right {
+    width:351px;
+}
+
+/* Fuer Bilder die Abstand nach Unten benoetigen */
+div.bildbox {
+    margin-bottom:15px;
+    margin-top:1px;
+}
+
+/* Für das horizontale Bild */
+div.horizont {
+    margin-bottom:14px;
+    padding-top:1px;
+}
+
+/* Für mehrere Bilder in einer Reihe */
+div.bildfloat {
+    float:left;
+    margin-right:12px;
+    width:180px;
+}
+div.bildfloat-last {
+    float:left;
+    width:180px;
+}
+
+/* Datentabelle */
+table.datentabelle {
+    border-bottom:1px #b3b3b3 solid;
+    color:#000000;
+    margin-bottom:10px;
+    width:564px;
+}
+table.datentabelle caption {
+    background-color:#e5e5e5;
+    color:#000000;
+    font-weight:700;
+    height:auto;
+    line-height:1.82em;
+    padding-left:6px;
+    text-align:left;
+}
+table.datentabelle th {
+    font-weight:700;
+    line-height:1.45em;
+    padding:0 3px 0 6px;
+    text-align:left;
+    vertical-align:top;
+    width:72px;
+}
+table.datentabelle .inhalt {
+    line-height:1.45em;
+    padding:0 3px 0 0;
+    text-align:left;
+    vertical-align:top;
+    width:206px;
+}
+
+table.datentabelle .attribute {
+    font-weight:700;
+    line-height:1.45em;
+    padding:0;
+    text-align:left;
+    vertical-align:top;
+    width:46px;
+}
+table.datentabelle .links {
+    line-height:1.45em;
+    padding:0;
+    vertical-align:top;
+    width:228px;
+}
+table.datentabelle .links a:link,table.datentabelle .links a:active,table.datentabelle .links a:visited {
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .55em no-repeat;
+    display:block;
+    line-height:1.45em;
+    padding-left:5px;
+    text-decoration:none;
+}
+table.datentabelle .inhalt_links:link,table.datentabelle .inhalt_links:active,table.datentabelle .inhalt_links:visited {
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .55em no-repeat;
+    display:block;
+    line-height:1.45em;
+    padding-left:5px;
+    text-decoration:none;
+}
+table.datentabelle .links a:hover {
+    text-decoration:underline;
+}
+table.datentabelle .trenner {
+    height:7px;
+}
+
+/* Für Headlines mit grauem Strich */
+span.headline-text {
+    background-color:#fff;
+    color:#808080;
+    font-weight:700;
+    height:1.45em;
+    line-height:1.45em;
+    padding-right:5px;
+}
+
+/* Infotabelle */
+table.infotabelle {
+    color:#000000;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    width:564px;
+}
+table.infotabelle th {
+    background-color:#e5e5e5;
+    color:#000000;
+    font-weight:700;
+    height:20px;
+    line-height:1.75em;
+    padding-left:6px;
+    text-align:left;
+    vertical-align:middle;
+}
+table.infotabelle .details {
+    font-weight:400;
+    padding-right:5px;
+    text-align:right;
+}
+table.infotabelle .details a:link,table.infotabelle .details a:active,table.infotabelle .details a:visited {
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .48em no-repeat;
+    color:#000000;
+    padding-bottom:3px;
+    padding-left:5px;
+    text-decoration:none;
+}
+table.infotabelle .text {
+    border-bottom:1px #b3b3b3 solid;
+    line-height:1.45em;
+    padding:4px 6px 7px 4px;
+    vertical-align:top;
+    width:385px;
+}
+table.infotabelle .kontakt {
+    border-bottom:1px #b3b3b3 solid;
+    line-height:1.45em;
+    padding-bottom:4px;
+    padding-top:4px;
+    vertical-align:top;
+    width:179px;
+}
+table.infotabelle .kontakt a:hover {
+    text-decoration:none;
+}
+table.infotabelle .details a:hover,table.infotabelle .kontakt a:link,table.infotabelle .kontakt a:active,table.infotabelle .kontakt a:visited {
+    text-decoration:underline;
+}
+
+/* Drei Personen Tabelle */
+table.dreiptabelle {
+    background-color:#e5e5e5;
+    margin-bottom:15px;
+    width:564px;
+}
+table.dreiptabelle .foto {
+    border-bottom:1px #b3b3b3 solid;
+    border-left:5px #e5e5e5 solid;
+    padding:5px 5px 5px 0;
+    vertical-align:top;
+    width:60px;
+}
+table.dreiptabelle .details {
+    border-bottom:1px #b3b3b3 solid;
+    border-right:5px #e5e5e5 solid;
+    padding:5px 0;
+    vertical-align:top;
+    width:110px;
+}
+table.dreiptabelle .kontakt {
+    line-height:1.25em;
+    padding:3px 5px;
+    vertical-align:top;
+    width:160px;
+}
+table.dreiptabelle .kontakt a:link,table.dreiptabelle .kontakt a:active,table.dreiptabelle .kontakt a:visited {
+    text-decoration:underline;
+}
+table.dreiptabelle .kontakt a:hover {
+    text-decoration:none;
+}
+
+/* Zwei Personen Tabelle */
+table.zweiptabelle {
+    background-color:#e5e5e5;
+    margin-bottom:15px;
+    width:564px;
+}
+table.zweiptabelle .foto {
+    padding:5px;
+    vertical-align:top;
+    width:60px;
+}
+table.zweiptabelle .kontakt {
+    line-height:1.25em;
+    padding:0 5px 3px 0;
+    vertical-align:top;
+    width:206px;
+}
+table.zweiptabelle .details {
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-top:5px;
+    vertical-align:top;
+    width:206px;
+}
+table.zweiptabelle .kontakt a:link,table.zweiptabelle .kontakt a:active,table.zweiptabelle .kontakt a:visited {
+    text-decoration:underline;
+}
+table.zweiptabelle .kontakt a:hover {
+    text-decoration:none;
+}
+
+/* Eine Person Tabelle */
+table.ptabelle {
+    background-color:#e5e5e5;
+    margin-bottom:15px;
+    width:564px;
+}
+table.ptabelle .foto {
+    padding:5px;
+    vertical-align:top;
+    width:60px;
+}
+table.ptabelle .name {
+    border-bottom:1px #b3b3b3 solid;
+    border-right:5px #e5e5e5 solid;
+    font-weight:700;
+    height:22px;
+}
+table.ptabelle .row-left {
+    line-height:1.25em;
+    padding-bottom:4px;
+    padding-top:3px;
+    vertical-align:top;
+    width:219px;
+}
+table.ptabelle .row-right {
+    line-height:1.25em;
+    padding-bottom:4px;
+    padding-top:3px;
+    vertical-align:top;
+    width:275px;
+}
+table.ptabelle .row-left a:link,table.ptabelle .row-left a:active,table.ptabelle .row-left a:visited {
+    text-decoration:underline;
+}
+table.ptabelle .row-left a:hover {
+    text-decoration:none;
+}
+
+/* Ein Personen Tabelle OHNE Bild */
+table.ptabelleblank {
+    background-color:#e5e5e5;
+    border:5px #e5e5e5 solid;
+    border-bottom:0;
+    margin-bottom:10px;
+    width:564px;
+}
+table.ptabelleblank th {
+    font-weight:700;
+    line-height:1.45em;
+    padding:0 3px 0 6px;
+    text-align:left;
+    vertical-align:top;
+    width:72px;
+}
+table.ptabelleblank .inhalt {
+    line-height:1.45em;
+    padding:0 3px 0 0;
+    text-align:left;
+    vertical-align:top;
+    width:206px;
+}
+table.ptabelleblank .inhaltfrei {
+    line-height:1.45em;
+    padding:0 3px 0 0;
+    text-align:left;
+    vertical-align:top;
+}
+
+table.ptabelleblank .links {
+    line-height:1.45em;
+    padding:0;
+    vertical-align:top;
+}
+table.ptabelleblank .links a:link,table.ptabelleblank .links a:active,table.ptabelleblank .links a:visited {
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .55em no-repeat;
+    display:block;
+    line-height:1.45em;
+    margin-left:5px;
+    padding-left:8px;
+    text-decoration:none;
+}
+table.ptabelleblank .links a:hover {
+    text-decoration:underline;
+}
+
+table.ptabelleblank .name {
+    border-bottom:1px #b3b3b3 solid;
+    font-weight:700;
+    padding:0 5px 3px 0;
+}
+table.ptabelleblank .row-left {
+    line-height:1.25em;
+    padding-top:3px;
+    vertical-align:top;
+    width:289px;
+}
+table.ptabelleblank .row-right {
+    line-height:1.25em;
+    padding-bottom:5px;
+    padding-top:3px;
+    vertical-align:top;
+    width:275px;
+}
+table.ptabelleblank .row-left a:link,table.ptabelleblank .row-left a:active,table.ptabelleblank .row-left a:visited {
+    text-decoration:underline;
+}
+table.ptabelleblank .row-left a:hover {
+    text-decoration:none;
+}
+
+/* Für ALLE Personen Tabellen */
+td.white {
+    background-color:#fff;
+    width:12px;
+}
+
+/* Tabelle 1 */
+table.tabelle1 {
+    color:#000000;
+    margin-bottom:10px;
+    width:564px;
+}
+table.tabelle1 th {
+    background-color:#e5e5e5;
+    color:#000000;
+    padding:4px 5px 5px;
+    text-align:left;
+    vertical-align:bottom;
+}
+table.tabelle1 .row1 {
+    width:130px;
+}
+table.tabelle1 .row2 {
+    width:105px;
+}
+table.tabelle1 .row3 {
+    width:123px;
+}
+table.tabelle1 .row4 {
+    width:152px;
+}
+table.tabelle1 .row5 {
+    width:54px;
+}
+table.tabelle1 .link {
+    border-bottom:1px #b3b3b3 solid;
+    font-weight:700;
+    padding:4px 0 4px 6px;
+    vertical-align:top;
+    width:125px;
+}
+table.tabelle1 .link a:link,table.tabelle1 .link a:active,table.tabelle1 .link a:visited {
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .36em no-repeat;
+    color:#009682;
+    display:block;
+    padding-left:5px;
+}
+table.tabelle1 .link a:hover {
+    text-decoration:underline;
+}
+table.tabelle1 .normal {
+    border-bottom:1px #b3b3b3 solid;
+    padding:4px 0 4px 5px;
+    vertical-align:top;
+}
+table.tabelle1 .icons {
+    border-bottom:1px #b3b3b3 solid;
+    padding:1px 0;
+    text-align:right;
+    vertical-align:top;
+}
+table.tabelle1 .thema {
+    border-bottom:1px #b3b3b3 solid;
+    line-height:1.36em;
+    padding:2px 0 3px 5px;
+    vertical-align:top;
+}
+table.tabelle1 .grey {
+    background-color:#e5e5e5;
+}
+
+/* Tabelle 2 */
+table.tabelle2 {
+    color:#000000;
+    margin-bottom:10px;
+    width:564px;
+}
+table.tabelle2 th {
+    background-color:#e5e5e5;
+    color:#000000;
+    padding:4px 5px 5px;
+    text-align:left;
+    vertical-align:bottom;
+}
+table.tabelle2 .row1 {
+    width:114px;
+}
+table.tabelle2 .row2 {
+    padding-left:8px;
+    width:85px;
+}
+table.tabelle2 .row3 {
+    width:162px;
+}
+table.tabelle2 .row4 {
+    width:196px;
+}
+table.tabelle2 .name {
+    background-color:#d9efec;
+    border-bottom:1px #b3b3b3 solid;
+    font-weight:700;
+    padding:3px 0 3px 5px;
+    vertical-align:top;
+    width:114px;
+}
+table.tabelle2 .ort {
+    border-bottom:1px #b3b3b3 solid;
+    line-height:1.6em;
+    padding-left:8px;
+    vertical-align:top;
+    width:79px;
+}
+table.tabelle2 .normal {
+    border-bottom:1px #b3b3b3 solid;
+    line-height:1.6em;
+    padding-left:5px;
+    vertical-align:top;
+}
+table.tabelle2 .themen {
+    border-bottom:1px #b3b3b3 solid;
+    color:#000000;
+    line-height:1.6em;
+    padding:0 6px;
+    vertical-align:top;
+    width:150px;
+}
+table.tabelle2 .themen ul {
+    list-style-type:none;
+    margin:0;
+}
+table.tabelle2 .themen li {
+    background:url(/_layouts/studium/img/td3list_dot.gif) 0 .5em no-repeat;
+    padding-left:9px;
+}
+
+/* Tabelle 3 */
+table.tabelle3 {
+    color:#000000;
+    line-height:1.3em;
+
+    margin-bottom:10px;
+    width:564px;
+}
+table.tabelle3 th {
+    background-color:#e5e5e5;
+    color:#000000;
+    padding:4px 5px 5px;
+    text-align:left;
+    vertical-align:bottom;
+}
+table.tabelle3 .row1 {
+    width:130px;
+}
+table.tabelle3 .row2 {
+    width:105px;
+}
+table.tabelle3 .row3 {
+    width:123px;
+}
+table.tabelle3 .row4 {
+    width:152px;
+}
+table.tabelle3 .row5 {
+    width:54px;
+}
+table.tabelle3 .link {
+    padding:4px 0 4px 5px;
+    vertical-align:top;
+/*    width:125px;*/
+}
+table.tabelle3 .link a:link,table.tabelle3 .link a:active,table.tabelle3 .link a:visited {
+    font-weight:700;
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .36em no-repeat;
+    color:#009682;
+    /* display:block; */
+    padding-left:5px;
+}
+table.tabelle3 .link a:hover {
+    text-decoration:underline;
+}
+table.tabelle3 .normal {
+    color:#000000;
+    padding:4px 0 4px 5px;
+    vertical-align:top;
+}
+table.tabelle3 .link_normal {
+    font-weight: normal;
+    padding-left: 0px;
+}
+table.tabelle3 .icons {
+    padding:1px 0;
+    text-align:right;
+    vertical-align:top;
+}
+table.tabelle3 .thema {
+    line-height:1.36em;
+    padding:2px 0 3px 5px;
+    vertical-align:top;
+}
+table.tabelle3 .grey {
+    background-color:#e5e5e5;
+    color:#000000;
+}
+table.tabelle3 .hover {
+    background-color:#d9efec;
+}
+/* Fuer alle Tabelle[n] Tabellen */
+caption {
+    background-color:#808080;
+    border-bottom:1px #fff solid;
+    color:#fff;
+    font-weight:700;
+    height:auto;
+    line-height:20px;
+    padding:0 6px;
+    text-align:left;
+}
+
+/* Kein Border */
+.noborder {
+    border:none !important;
+}
+
+/* Formular */
+input, textarea {
+    border:1px solid #b3b3b3;
+    margin:1px;
+}
+.form2 fieldset {
+    border:1px solid #b3b3b3;
+    padding: 0.5em;
+}
+.form2 fieldset legend {
+    margin: 0 0.5em 0;
+    padding: 0 0.5em 0;
+    font-weight: bold;
+    font-size:1.2em;
+    line-height:1.2em;
+    color: #000000;
+}
+.form2 label {
+    padding-left: 0.5em;
+    padding-right: 1em;
+}
+.form2 input {
+    vertical-align:middle;
+}
+.form1 input,.form1 textarea,.form1 select {
+    background-color:#e5e5e5;
+    border:1px #b3b3b3 solid;
+    display:block;
+    float:left;
+    font-size:1em;
+    font-weight:400;
+    margin-bottom:6px;
+}
+.form2 input,.form2 textarea,.form2 select {
+    background-color:#e5e5e5;
+    border:1px #b3b3b3 solid;
+    font-size:1em;
+    font-weight:400;
+    margin-bottom:6px;
+}
+.form1 label {
+    float:left;
+    font-weight:700;
+}
+.form1 br {
+    clear:left;
+}
+div.sendmenu {
+    border-top:1px #b3b3b3 solid;
+    clear:left;
+    margin:4px 0 10px;
+    padding:10px 0;
+    text-align:right;
+}
+div.sendmenu input {
+    float:right;
+    margin-left:10px;
+}
+/* Für zwei Spalten Formular */
+div.form-left {
+    float:left;
+    margin-right:5px;
+    width:283px;
+}
+div.form-right {
+    float:right;
+    width:275px;
+}
+div.textform {
+    color:#000000;
+    line-height:1.45em;
+    margin-bottom:16px;
+    margin-top:16px;
+}
+table.form2 {
+    color:#000000;
+}
+table.form2 input,textarea,select {
+    margin-bottom:10px;
+    margin-top:3px;
+}
+table.form2 label {
+    font-weight:400;
+}
+.form1 .noformstyle,.form2 .noformstyle {
+    background:none;
+    border:none;
+}
+
+/* Sortierbare Liste */
+.sort a:link,.sort a:active,.sort a:visited,.sort a:hover {
+    color:#000000;
+    text-decoration:none;
+}
+
+/* Home Seite inkl. News */
+.flash-intro {
+    margin-bottom:5px;
+}
+table.newstabelle {
+    margin-bottom:10px;
+    width:564px;
+}
+table.newstabelle .foto {
+    padding-right:5px;
+    padding-top:2px;
+    vertical-align:top;
+    width:82px;
+}
+table.newstabelle .text {
+    color:#000000;
+    line-height:1.2727em;
+    padding-left:5px;
+    vertical-align:top;
+    width:190px;
+}
+.grey {
+    color:#808080;
+}
+.newstext {
+    color:#000000;
+    line-height:1.2727em;
+    width:564px;
+}
+table.newstabelle .text a:link,table.newstabelle .text a:active,table.newstabelle .text a:visited,.newstext a:link,.newstext a:visited,.newstext a:active {
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 5px no-repeat;
+    padding-left:6px;
+    text-decoration:none;
+}
+table.newstabelle .text a:hover,.newstext a:hover {
+    text-decoration:underline;
+}
+/* eigene Erweiterung um OE-Teaser [start] */
+.news{
+    float:left;
+/*    width:270px;*/
+    width:264px;
+    margin: 0 12px 0 0;
+}
+* html .news { /* IE6 wills schmal */
+    width:260px;
+    margin: 0 10px 0 0;
+}
+.news .text {
+    line-height:1.35em;
+    margin-bottom:6px;
+}
+.news .headline {
+    font-weight: bold;
+}
+.news .text .headline a {
+    background: none !important;
+    color: #000000;
+    padding:0 !important;
+    text-decoration : none;
+}
+.news .text .headline a:hover {
+    text-decoration : underline;
+}
+.news img{
+    float:left;
+    max-width:82px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.news .with-img{
+    margin-top:0px;
+/*    margin-left: 95px; */
+}
+.news .with-img ul{
+    list-style-position:inside;
+}
+.news .text a:link, .news .text a:active, .news .text a:visited{
+/*    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 5px no-repeat;
+    padding-left:6px;
+    text-decoration:none;*/
+}
+.news .text a:hover{
+    text-decoration:none;
+}
+.news .text .link {
+    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 5px no-repeat;
+    padding-left:6px;
+    text-decoration:none;
+}
+.news .text .link:hover {
+   text-decoration:underline;
+}
+/* eigene Erweiterung um OE-Teaser [end] */
+div.line {
+    background-color:#b3b3b3;
+    font-size:1px;
+    height:1px;
+    margin:0 0 9px;
+    padding:0;
+}
+
+/* Kalender */
+table.kalender {
+    height:90px;
+    width:141px;
+    border-left:1px #b3b3b3 solid;
+}
+table.kalender caption {
+    background-color:#808080;
+    border:1px #b3b3b3 solid;
+    color:#fff;
+    font-weight:700;
+    height:14px;
+    line-height:13px;
+    padding-left:4px;
+    text-align:left;
+}
+/* FF Fix */
+html>/**/body table.kalender caption {
+    height:16px;
+}
+table.kalender th {
+    background-color:#808080;
+    border-bottom:1px #b3b3b3 solid;
+    border-right:1px #b3b3b3 solid;
+    color:#fff;
+    font-weight:400;
+    height:14px;
+    text-align:center;
+    vertical-align:middle;
+    width:19px;
+}
+table.kalender td {
+    border-bottom:1px #b3b3b3 solid;
+    border-right:1px #b3b3b3 solid;
+    color:#000000;
+    font-weight:400;
+    height:14px;
+    text-align:center;
+    vertical-align:middle;
+    width:19px;
+}
+table.kalender td.event {
+    background-color:#b3e0da;
+}
+table.kalender .today {
+    border:1px #c80000 solid;
+    font-weight:700;
+    color:#c80000;
+}
+/* FF Fix */
+html>/**/body .today {
+    border:none !important;
+    outline:1px #c80000 solid;
+    padding-right:1px;
+    height:10px;
+    padding-bottom:1px;
+}
+table#kalenderout a,table.kalender a {
+    background:none;
+    color:#000000;
+    padding:0;
+}
+table.kalender .today a {
+    color:#c80000 !important;
+}
+#kal_zurueck {
+    border:none;
+    margin:29px 0 0;
+    padding:0 0 0 10px;
+}
+#kal_vor {
+    border:none;
+    margin:0 0 2px;
+    padding:0 0 0 10px;
+}
+
+/* FZK Startseiten Box */
+div.fzkbox {
+    background:url(/_layouts/studium/img/logo_fzk.gif) 0 0 no-repeat;
+    color:#000000;
+    font-size:.91em;
+    line-height:1.15em;
+    margin:0 auto;
+    padding-left:38px;
+    padding-top:2px;
+    width:128px;
+}
+div.fzkbox a {
+    text-decoration:underline;
+}
+div.fzkbox span.klein {
+    font-size:.9em;
+    line-height:1.2em;
+}
+div.fzkbox span.klein a {
+    color:#000000;
+    text-decoration:underline;
+}
+div.fzkbox a:hover,div.fzkbox span.klein a:hover {
+    text-decoration:none;
+}
+
+/* Uni Startseiten Box */
+div.unibox {
+    background:url(/_layouts/studium/img/logo_uni.gif) 0 0 no-repeat;
+    color:#000000;
+    font-size:.91em;
+    line-height:1.25em;
+    margin:0 auto;
+    padding-left:38px;
+    width:128px;
+    height:110px;
+}
+div.unibox a {
+    text-decoration:underline;
+}
+div.unibox a:hover {
+    text-decoration:none;
+}
+div.small-line {
+    background-color:#b3b3b3;
+    font-size:1px;
+    height:1px;
+    margin:10px;
+    padding:0;
+}
+
+/* Navigation */
+ul#navigation, ul#navigation ul, ul#navigation ul ul {
+list-style: none;
+width:181px;
+}
+li.navWhite {
+background:#fff url(img/navwhite.gif) bottom left no-repeat;
+margin-bottom:2px;
+line-height:12px;
+}
+li.navWhite a {
+background:url(img/arrow_grey.gif) 5px 8px no-repeat;
+color:#808080;
+display:block;
+font-size:.9091em;
+font-weight:700;
+padding-bottom:5px;
+padding-left:12px;
+padding-top:4px;
+}
+* html li.navWhite a {
+height:1px;
+color:#808080 !important;
+}
+li.navLevel1 {
+background:url(img/first_level.gif) 0 0 repeat-y;
+border-top:2px #fff solid;
+line-height:12px;
+}
+li.navLevel1 a {
+background:url(img/arrow_schwarz_down.gif) 4px 7px no-repeat;
+color:#000;
+display:block;
+font-size:.9091em;
+font-weight:700;
+padding-bottom:3px;
+padding-left:12px;
+padding-top:2px;
+}
+* html li.navLevel1 a {
+height:1px;
+color:#000 !important;
+}
+ul#navigation ul ul {
+background:#d9efec url(img/second_level_foot.gif) bottom left no-repeat;
+border-top:2px #fff solid;
+padding-bottom:5px;
+}
+li.navLevel2 {
+background:url(img/second_level.gif) 0 0 repeat-y;
+border-right:2px #fff solid;
+}
+li.navLevel2 a {
+background:none;
+color:#000;
+display:block;
+font-weight:500;
+padding-bottom:1px;
+padding-left:20px;
+padding-top:1px;
+}
+li.got-more {
+background:url(img/arrow_schwarz.gif) 13px 4px no-repeat !important;
+border-right:2px #fff solid;
+}
+a#is-current {
+font-weight:700 !important;
+}
+
+/* Tabelle allgemein */
+.text table {
+    color:#000000;
+    border-color: #b3b3b3;
+    margin-bottom:10px;
+/*    width:564px; */
+}
+.text table th {
+    background-color:#e5e5e5;
+    border-color: #b3b3b3;
+    color:#000000;
+    padding:4px 5px 5px;
+    text-align:left;
+/*    vertical-align:bottom; */
+}
+.text table td {
+/*    border-bottom:1px #b3b3b3 solid; */
+    border-color: #b3b3b3;
+    padding:4px 0 4px 5px;
+    vertical-align:top;
+}
+p {
+    margin-bottom: 0.5em;
+}
+
+.tabs {
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    margin:0;
+    padding-bottom: 1em;
+    background: url(/_layouts/studium/img/tab_inactive.gif) repeat-x;
+    font-weight:bold;
+}
+.tabs li {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    background: url(/_layouts/studium/img/tab_inactive.gif) repeat-x;
+}
+.tabs .active, .tabs .inactive {
+    float: left;
+}
+.tabs .active a {
+    color:#000000;
+    background: #fff;
+}
+.tabs li a {
+    padding:0 1em 0 1em;
+    display: block;
+    color: #000000;
+    color: #fff;
+    height: 19px;
+    line-height: 17px;
+}
+.tabs li a:hover {
+    text-decoration: none;
+    color:#000000;
+    background: url(/_layouts/studium/img/tab_inactive_hover.gif) repeat-x;
+}
+.tabs .active a:hover {
+    color:#000000;
+    background:#fff;
+}
+.tabs .inactive {
+    background: url(/_layouts/studium/img/tab_inactive.gif) repeat-x;
+}
+.tabs .active_last a {
+    color:#000000;
+    background:#fff;
+}
+.tabs .active_last a:hover {
+    color:#000000;
+    background:#fff;
+}
+.tabs .border_right {
+    border-right: 1px solid #cccccc;
+}
+.tabborder {
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 1em;
+    padding: 1em;
+    padding-bottom: 0;
+}
+.tabborder table.ptabelleblank {
+    width: auto !important;
+}
+.tabborder .tabelle3 {
+    width:100% !important;
+}
+.tabborder div.box-right {
+    float:right;
+    width:350px;
+}
+/* **************** */
+/* LINKE NAVIGATION */
+/* **************** */
+#menu-box {
+    margin: 0;
+    margin-left: -2px;
+    margin-top: -4px;
+    padding: 0;
+    width: 178px;
+    font-family: verdana;
+    font-size:.9091em;
+    color: #000000;
+    overflow: hidden;
+}
+#menu-box ul {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#menu-box ul li {
+    margin: 0;
+    border: 0;
+    padding: 0;
+/*    text-transform: uppercase; */
+}
+#menu-box ul li ul li {
+    background-color: #d9efec;
+    text-transform: none;
+}
+#menu-box a {
+    padding: 3px 5px 3px 15px;
+    text-decoration: none;
+    display: block;
+    position: relative; /* ie8 display:block-problem */
+}
+#menu-box a:hover {
+    text-decoration: underline;
+}
+#menu-box .li_level_1_selected_no_children {
+    padding-bottom: 5px;
+    background-image: url(/_layouts/studium/img/left_navi_V2.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: #009682;
+}
+#menu-box .li_level_1_selected_children {
+    padding-bottom: 5px;
+    background-image: url(/_layouts/studium/img/left_navi_V2.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: #d9efec;
+}
+#menu-box .li_level_1_selected_children ul {
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    padding-bottom: 1px;
+}
+#menu-box .li_level_1_selected_children ul li ul{
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 0;
+}
+#menu-box .li_level_1_not_selected {
+    padding-bottom: 5px;
+    background-image: url(/_layouts/studium/img/left_navi_V2.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+#menu-box .li_has_child {
+    background-color: #d9efec;
+}
+#menu-box .level_1_not_selected {
+    margin-top: 4px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    color:#808080; 
+    //color: #808080;
+    font-weight:700;
+}
+#menu-box .level_1_selected {
+    margin-top: 4px;
+    border: 2px solid #ffffff;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #009682;
+}
+#menu-box .selected {
+    margin: 0px;
+    border-bottom: 2px solid #ffffff;
+    color: #000000;
+    //color: #000000;
+    background-color: #b3e0da;
+    font-weight: 700;
+}
+#menu-box .has_no_children {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+#menu-box .has_children_open {
+    background-image: url(/_layouts/studium/img/navi_level_1_open.gif);
+    background-repeat: no-repeat;
+    background-position: 6px 8px;
+}
+#menu-box ul li ul li .has_children_open {
+    background-image: url(/_layouts/studium/img/navi_open.gif);
+}
+* html #menu-box ul li .has_children_open {
+    background-position: 8px 10px;
+}
+* html #menu-box ul li ul li .has_children_open {
+    background-position: 8px 8px;
+}
+#menu-box .has_children_closed {
+    /* padding-bottom: 0; */
+    border-bottom: 0;
+    background-image: url(/_layouts/studium/img/navi_level_1_closed.gif);
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+}
+#menu-box ul li ul li .has_children_closed {
+    background-image: url(/_layouts/studium/img/navi_closed.gif);
+}
+* html #menu-box ul li .has_children_closed {
+    background-position: 8px 8px;
+}
+* html #menu-box ul li ul li .has_children_closed {
+    background-position: 8px 6px;
+}
+#menu-box .item_not_selected {
+    margin: 0;
+    margin-left: 10px;
+    /* padding-bottom:0; */
+    color: #000000;
+    //color: #000000;
+    font-weight: 400;
+}
+#menu-box .item_selected {
+    margin: 0;
+    margin-left: 10px;
+    color:#000000;
+    font-weight: 700;
+}
+/* Zusatz fuer Geschwister */
+.background_mid_tone {
+    background-color: #b3e0da !important;
+    color:#000000 !important;
+    line-height: 1.2em;
+}
+.additional_l1 {
+    border-right:0 !important;
+    border-left:0 !important;
+    border-top:0 !important;
+    margin-top:0 !important;
+}
+.top_border {
+    margin-top: 0px;
+    border-top:2px solid #ffffff;
+}
+
+.sitemap ul {
+    margin:0px;
+    border:0;
+    padding:0;
+}
+.sitemap li {
+    margin-top:4px;
+    margin-bottom:4px;
+    border:0;
+    padding:0;
+}
+
+.where_is_it {display:none}
+/* Suche */
+div#suchen {
+    margin:0 0 10px 5px;
+    border:0;
+    padding:1px;
+    background-color:#fff;
+    height:17px;
+    width:169px;
+}
+div#suchen form{
+    margin:0;
+    border: 1px solid #b3b3b3;
+    padding:0;
+    height: 15px;
+}
+div#suchen input#suche {
+    margin:0;
+    border:0;
+    border-right:1px solid #b3b3b3;
+    padding:1px 0 0 0;
+    float:left;
+    height:14px;
+    width:106px;
+    font-size:0.9091em;
+}
+div#suchen input#submit {
+    margin:0;
+    border: 0;
+    padding: 0;
+    float:left;
+    font-size:0.9091em;
+    font-weight: bold;
+    color: #009682;
+    background-color: #fff;
+    text-transform: uppercase;
+    height: 14px;
+    width: 60px;
+    cursor: pointer;
+}
+.search_submit {
+    font-size:0.9091em;
+    font-weight: bold !important;
+    color: #009682;
+    background-color: #fff !important;
+    cursor: pointer;
+}
+
+/*
+@media print {
+    * {
+        background:none !important;
+        width:auto !important;
+        position:static !important;
+        height:auto !important;
+        float: none !important;
+        overflow: visible !important;
+    }
+    html {
+        height:auto !important;
+    }
+    body {
+        height:auto !important;
+        overflow: visible !important;
+    }
+    div#wrapper {
+        height:auto !important;
+        margin:0;
+    }
+    div#metanavigation {
+        display:none;
+    }
+    div#logo, div#head-text, div#head-text-alt {
+        float: left !important;
+    }
+    div#head-image {
+        border: 1px solid #fff;
+    }
+    div#key-visual, div#nav-horizontal, div#nav-horizontal-2 {
+        display:none;
+    }
+    div#footer {
+        display:none;
+    }
+    div#container {
+        padding-bottom:0;
+        padding:0;
+        margin:0;
+    }
+
+    div#left-row {
+        float:none;
+        width: auto;
+        display:none;
+    }
+    #menu-box {
+        margin: 0;
+        padding: 0;
+        width: auto !important;
+        font-family: verdana;
+        font-size:.9091em;
+    }
+    #menu-box ul, #menu-box ul li {
+        background: none !important;
+        display:inline;
+    }
+    #menu-box a {
+        background: none !important;
+        padding: 0 !important;
+        display: inline !important;
+        position: static !important;
+        margin-right: 1em !important;
+        border:0 !important;
+        border-right: 1px solid #000 !important;
+        padding-right: 1em !important;
+        color: #000 !important;
+        font-weight: 400 !important;
+    }
+    #menu-box .li_level_1_selected_no_children, #menu-box .li_level_1_selected_children, #menu-box .li_level_1_selected_children ul, #menu-box .li_level_1_selected_children ul li ul{
+        background: none !important;
+        border:0 !important;
+    }
+    #menu-box .li_level_1_not_selected, #menu-box .level_1_not_selected {
+        display:none !important;
+    }
+    #menu-box .item_not_selected {
+        display:none !important;
+    }
+    #menu-box .item_selected {
+        border:0 !important;
+    }
+    #menu-box ul li .background_mid_tone {
+        display: none !important;
+    }
+
+    div#middle-row {
+        height:auto !important;
+        padding:10px;
+        margin:0 10px 10px 0;
+        width:auto !important;
+    }
+    div.text {
+        overflow: visible !important;
+    }
+    .faq_answer {
+        display: block !important;
+    }
+    table, .headline a, .newstext, .form2, .textform, .tabelle1, .tabelle2, .tabelle3, .infotabelle, .datentabelle, .bild-desc, .firstline, .formular, .infobox-inner, .rubriktext, .text, #owner-text {
+        color:#000000 !important;
+    }
+}
+
+*/
