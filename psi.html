@@ -28,18 +28,18 @@
   //shortcut.add("1", function() { document.getElementById("notification-1").hidden = false });
 
   function auswahl () {
-  	document.getElementById("auswahl").hidden = false;
-  	document.getElementById("ergebnis").hidden = true;
+  	//document.getElementById("auswahl").hidden = false;
+	$("#auswahl").slideDown();
 	return false;
   }
   function ergebnis () {
-  	document.getElementById("auswahl").hidden = true;
-  	document.getElementById("ergebnis").hidden = false;
+	$("#auswahl").slideUp();
+	$("#ergebnis").slideDown();
 	return false;
   }
   function aenderung () {
-  	document.getElementById("auswahl").hidden = true;
-  	document.getElementById("ergebnis").hidden = true;
+	$("#ergebnis").slideUp();
+	$("#notification-1").slideDown();
   	document.getElementById("urschelrow").hidden = false;
   	document.getElementById("lastrow1").hidden = true;
   	document.getElementById("lastrow2").hidden = false;
