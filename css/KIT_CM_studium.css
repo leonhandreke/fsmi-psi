@@ -1,5 +1,5 @@
 /* CSS FUER CAMPUSPLAN */
-@import url("/_layouts/studium/css/CampusPlan.css");
+/* @import url("/_layouts/studium/css/CampusPlan.css"); */
 
 
 ul{
@@ -80,7 +80,7 @@ padding-bottom:40px;
 
 #left_navigation .li_level_1_selected {
 	padding-bottom: 5px;
-	background-image: url(/_layouts/studium/img/left_navi_level_1.gif);
+	background-image: url(../images/left_navi_level_1.gif);
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-color: #148D78;
@@ -101,7 +101,7 @@ padding-bottom:40px;
 
 #left_navigation .li_level_1_not_selected {
 	padding-bottom: 5px;
-	background-image: url(/_layouts/studium/img/left_navi_level_1.gif);
+	background-image: url(../images/left_navi_level_1.gif);
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-color: #ffffff;
@@ -141,13 +141,13 @@ padding-bottom:40px;
 }
 
 #left_navigation .has_children_open {
-	background-image: url(/_layouts/studium/img/left_navi_link_open_white.gif);
+	background-image: url(../images/left_navi_link_open_white.gif);
 	background-repeat: no-repeat;
 	background-position: 4px 7px;
 }
 
 #left_navigation ul li ul .has_children_open {
-	background-image: url(/_layouts/studium/img/left_navi_link_open_black.gif);
+	background-image: url(../images/left_navi_link_open_black.gif);
 	background-repeat: no-repeat;
 	background-position: 4px 7px;
 }
@@ -155,7 +155,7 @@ padding-bottom:40px;
 #left_navigation .has_children_closed {
 	padding-bottom: 0;
 	border-bottom: 0;
-	background-image: url(/_layouts/studium/img/left_navi_link_closed_white.gif);
+	background-image: url(../images/left_navi_link_closed_white.gif);
 	background-repeat: no-repeat;
 	background-position: 4px 7px;
 }
@@ -163,7 +163,7 @@ padding-bottom:40px;
 #left_navigation .li_level_1_not_selected .has_children_closed {
 	padding-bottom: 0;
 	border-bottom: 0;
-	background-image: url(/_layouts/studium/img/left_navi_link_closed_gray.gif);
+	background-image: url(../images/left_navi_link_closed_gray.gif);
 	background-repeat: no-repeat;
 	background-position: 4px 7px;
 }
@@ -171,7 +171,7 @@ padding-bottom:40px;
 #left_navigation ul li ul .has_children_closed {
 	padding-bottom: 0;
 	border-bottom: 0;
-	background-image: url(/_layouts/studium/img/left_navi_link_closed_black.gif);
+	background-image: url(../images/left_navi_link_closed_black.gif);
 	background-repeat: no-repeat;
 	background-position: 4px 7px;
 }
@@ -248,7 +248,7 @@ padding-bottom:40px;
 div.info_box {
 	margin: 0 1em 10px 10px; 
 	background-color: #ffffff;
-	background-image: url(/_layouts/studium/img/infobox_left_top.gif);
+	background-image: url(../images/infobox_left_top.gif);
 	background-position: left top;
 	background-repeat: no-repeat;
 	/* new */
@@ -259,7 +259,7 @@ div.info_box_inner {
 /*	padding: 0.6em; */
 /*	width: 16em; */
 	/* new */
-	background: transparent url(/_layouts/studium/img/infobox_right_bottom.gif) no-repeat scroll right bottom;
+	background: transparent url(../images/infobox_right_bottom.gif) no-repeat scroll right bottom;
 	color: #4D4D4D;
 	font-size: 0.91em;
 	line-height: 1.18em;
@@ -281,7 +281,7 @@ div.info_box_inner ul li {
 }
 
 div.info_box_inner a:link, div.info_box_inner a:active, div.info_box_inner a:visited {
-	background: transparent url(/_layouts/studium/img/arrow_dunkelgruen.gif) no-repeat scroll  0pt 4px;
+	background: transparent url(../images/arrow_dunkelgruen.gif) no-repeat scroll  0pt 4px;
 	color: #009682;
 	padding-left: 6px;
 }
@@ -544,7 +544,7 @@ table.KIM_LPS_DozentenAdminWebPart_Overview th {
 }
 
 table.KIM_LPS_DozentenAdminWebPart_Overview tr.eventLine {
-	behavior: url(/_layouts/studium/css/hover.htc); 
+	behavior: url(../images/hover.htc); 
 	line-height: 150%;
 }
 
@@ -1195,7 +1195,7 @@ table.detailsTable td { text-align:justify; padding:5px; }
 
 
 div.fzkbox {
-	background:transparent url(/_layouts/studium/img/logo_fzk.gif) no-repeat;
+	background:transparent url(../images/logo_fzk.gif) no-repeat;
 	color:#4D4D4D;
 	font-size:1em;
 	line-height:1.15em;
@@ -1220,7 +1220,7 @@ div.fzkbox a:hover, div.fzkbox span.klein a:hover {
 	text-decoration:underline;
 }
 div.unibox {
-	background:transparent url(/_layouts/studium/img/logo_uni.gif) no-repeat;
+	background:transparent url(../images/logo_uni.gif) no-repeat;
 	color:#4D4D4D;
 	font-size:1em;
 	line-height:1.15em;

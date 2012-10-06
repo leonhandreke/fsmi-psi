@@ -47,7 +47,7 @@ a:hover {
 
 /* Wrapper */
 div#wrapper {
-    background:url(/_layouts/studium/img/bg_wrapper_V2.png) 0 0 repeat-y;
+    background:url(../images/bg_wrapper_V2.png) 0 0 repeat-y;
     width: 1015px;
     height:auto !important;
     height:100%;
@@ -118,7 +118,7 @@ div#head-text {
     height:32px !important;
 }
 div#head-text-corner {
-    background:url(/_layouts/studium/img/head_text_corner.png) 0 0 no-repeat;
+    background:url(../images/head_text_corner.png) 0 0 no-repeat;
     float:left;
     height:33px;
         margin-top:74px;
@@ -147,7 +147,7 @@ div#head-text-alt {
     overflow:hidden;
 }
 div#head-text-alt-corner {
-    background:url(/_layouts/studium/img/head_text_corner.png) 0 0 no-repeat;
+    background:url(../images/head_text_corner.png) 0 0 no-repeat;
     float:left;
     height:35px;
     margin-top:25px;
@@ -164,7 +164,7 @@ div#head-text-alt-corner {
 }
 * html div#head-text-corner,* html div#head-text-alt-corner {
     background:none;
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src='/_layouts/studium/img/head_text_corner.png');
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src='../images/head_text_corner.png');
 }
 div#head-text a,div#head-text-alt a {
     background:#fff;
@@ -338,7 +338,7 @@ div#nav-horizontal-2 .horizontal-item-inactive-end {
     height:28px;
 }
 div#nav-horizontal-2 .horizontal-item-inactive:hover .horizontal-item-inactive-end {
-    background:url(/_layouts/studium/img/top_item_right.gif) 0 -34px no-repeat;
+    background:url(../images/top_item_right.gif) 0 -34px no-repeat;
 }
 
 /* AKTIV */
@@ -347,12 +347,12 @@ div#nav-horizontal-2 .horizontal-item-active {
 }
 div#nav-horizontal-2 .horizontal-item-active-start {
     float:left;
-    background:url(/_layouts/studium/img/top_item_left.gif) 0 -2px no-repeat;
+    background:url(../images/top_item_left.gif) 0 -2px no-repeat;
     height:28px;
     width:4px;
 }
 div#nav-horizontal-2 .horizontal-item-active:hover .horizontal-item-active-start {
-    background:url(/_layouts/studium/img/top_item_left.gif) 0 -34px no-repeat;
+    background:url(../images/top_item_left.gif) 0 -34px no-repeat;
 }
 div#nav-horizontal-2 .horizontal-item-active-text {
     float:left;
@@ -371,12 +371,12 @@ div#nav-horizontal-2 .horizontal-item-active:hover .horizontal-item-active-text 
 }
 div#nav-horizontal-2 .horizontal-item-active-end {
     float:left;
-    background:url(/_layouts/studium/img/top_item_right.gif) 0 -2px no-repeat;
+    background:url(../images/top_item_right.gif) 0 -2px no-repeat;
     width:6px;
     height:28px;
 }
 div#nav-horizontal-2 .horizontal-item-active:hover .horizontal-item-active-end {
-    background:url(/_layouts/studium/img/top_item_right.gif) 0 -34px no-repeat;
+    background:url(../images/top_item_right.gif) 0 -34px no-repeat;
 }
 
 /* LETZTES INAKTIV */
@@ -385,12 +385,12 @@ div#nav-horizontal-2 .last-horizontal-item-inactive {
 }
 div#nav-horizontal-2 .last-horizontal-item-inactive-start {
     float:left;
-    background:url(/_layouts/studium/img/top_item_left.gif) 0 -66px no-repeat;
+    background:url(../images/top_item_left.gif) 0 -66px no-repeat;
     height:28px;
     width:4px;
 }
 div#nav-horizontal-2 .last-horizontal-item-inactive:hover .last-horizontal-item-inactive-start {
-    background:url(/_layouts/studium/img/top_item_left.gif) 0 -34px no-repeat;
+    background:url(../images/top_item_left.gif) 0 -34px no-repeat;
 }
 div#nav-horizontal-2 .last-horizontal-item-inactive-text {
     color:#808080;
@@ -413,7 +413,7 @@ div#nav-horizontal-2 .last-horizontal-item-inactive:hover .last-horizontal-item-
 }
 div#nav-horizontal-2 .last-horizontal-item-inactive-end {
     float:right;
-    background:url(/_layouts/studium/img/top_item_end_V2.gif) 0 -66px no-repeat;
+    background:url(../images/top_item_end_V2.gif) 0 -66px no-repeat;
     height:28px;
     width:14px;
 }
@@ -424,7 +424,7 @@ div#nav-horizontal-2 .last-horizontal-item-inactive-end {
     top: 27px;
 }
 div#nav-horizontal-2 .last-horizontal-item-inactive:hover .last-horizontal-item-inactive-end {
-    background:url(/_layouts/studium/img/top_item_end_V2.gif) 0 -34px no-repeat;
+    background:url(../images/top_item_end_V2.gif) 0 -34px no-repeat;
 }
 
 /* LETZTES AKTIV */
@@ -433,12 +433,12 @@ div#nav-horizontal-2 .last-horizontal-item-active {
 }
 div#nav-horizontal-2 .last-horizontal-item-active-start {
     float:left;
-    background:url(/_layouts/studium/img/top_item_left.gif) 0 -2px no-repeat;
+    background:url(../images/top_item_left.gif) 0 -2px no-repeat;
     height:28px;
     width:4px;
 }
 div#nav-horizontal-2 .last-horizontal-item-active:hover .last-horizontal-item-active-start {
-    background:url(/_layouts/studium/img/top_item_left.gif) 0 -34px no-repeat;
+    background:url(../images/top_item_left.gif) 0 -34px no-repeat;
 }
 div#nav-horizontal-2 .last-horizontal-item-active-text {
     color:#fff;
@@ -462,7 +462,7 @@ div#nav-horizontal-2 .last-horizontal-item-active:hover .last-horizontal-item-ac
 
 div#nav-horizontal-2 .last-horizontal-item-active-end {
     float:right;
-    background:url(/_layouts/studium/img/top_item_end_V2.gif) 0 -2px no-repeat;
+    background:url(../images/top_item_end_V2.gif) 0 -2px no-repeat;
     height:28px;
     width:14px;
 }
@@ -473,7 +473,7 @@ div#nav-horizontal-2 .last-horizontal-item-active-end {
     top: 27px;
 }
 div#nav-horizontal-2 .last-horizontal-item-active:hover .last-horizontal-item-active-end {
-    background:url(/_layouts/studium/img/top_item_end_V2.gif) 0 -34px no-repeat;
+    background:url(../images/top_item_end_V2.gif) 0 -34px no-repeat;
 }
 
 
@@ -496,11 +496,11 @@ div#footer-container {
     left:0;
     position:absolute;
         width: 1015px;
-    background:#ffffff url(/_layouts/studium/img/bg_footer_V2.png) left top no-repeat;
+    background:#ffffff url(../images/bg_footer_V2.png) left top no-repeat;
         bottom:0;
 }
 * html div#footer-container {
-    background:#ffffff url(/_layouts/studium/img/bg_footer_V2.gif) left top no-repeat;
+    background:#ffffff url(../images/bg_footer_V2.gif) left top no-repeat;
 }
 div#footer {
 /*    background-color:#fef2d6;*/
@@ -609,19 +609,19 @@ div#right-row {
 
 /* Boxen fuer die rechte Spalte */
 div.infobox {
-    background:#fff url(/_layouts/studium/img/infobox_right_top_V2.gif) right top no-repeat;
+    background:#fff url(../images/infobox_right_top_V2.gif) right top no-repeat;
     margin-bottom:10px;
     width:188px;
 }
 .infobox-deko {
-    background:#b3e0da url(/_layouts/studium/img/infobox_deko_right_top.png) right top no-repeat;
+    background:#b3e0da url(../images/infobox_deko_right_top.png) right top no-repeat;
     padding-left:8px;
     padding-bottom:4px;
     height:20px;
     line-height:24px;
 }
 div.infobox-inner {
-    background:url(/_layouts/studium/img/infobox_left_bottom_V2.gif) left bottom no-repeat;
+    background:url(../images/infobox_left_bottom_V2.gif) left bottom no-repeat;
     color:#000000;
     font-size:.91em;
     line-height:1.18em;
@@ -633,7 +633,7 @@ div.infobox-inner img {
     margin-left:1px;
 }
 div.infobox-inner a:link,div.infobox-inner a:active,div.infobox-inner a:visited {
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 5px no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 5px no-repeat;
     color:#009682;
     padding-left:6px;
 }
@@ -655,7 +655,7 @@ div.infobox-inner a:hover {
 .infobox-ul li a:link,.infobox-ul li a:active,.infobox-ul li a:visited {
     list-style-type:none;
     
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 4px no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 4px no-repeat;
     color:#009682;
     padding-left:6px;
 }
@@ -674,7 +674,7 @@ div.infobox-inner a:hover {
     margin-left:1.6em;
 }
 .infobox ul li a:link,.infobox ul li a:active,.infobox ul li a:visited {
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 4px no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 4px no-repeat;
     color:#009682;
     padding-left:6px;
 }
@@ -752,7 +752,7 @@ h3 {
     padding-bottom:8px;
 }
 h4 {
-    background:url(/_layouts/studium/img/headline_bg.gif) center left repeat-x;
+    background:url(../images/headline_bg.gif) center left repeat-x;
     font-size:1em;
     height:1.45em;
     margin-bottom:5px;
@@ -907,14 +907,14 @@ table.datentabelle .links {
     width:228px;
 }
 table.datentabelle .links a:link,table.datentabelle .links a:active,table.datentabelle .links a:visited {
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .55em no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 .55em no-repeat;
     display:block;
     line-height:1.45em;
     padding-left:5px;
     text-decoration:none;
 }
 table.datentabelle .inhalt_links:link,table.datentabelle .inhalt_links:active,table.datentabelle .inhalt_links:visited {
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .55em no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 .55em no-repeat;
     display:block;
     line-height:1.45em;
     padding-left:5px;
@@ -960,7 +960,7 @@ table.infotabelle .details {
     text-align:right;
 }
 table.infotabelle .details a:link,table.infotabelle .details a:active,table.infotabelle .details a:visited {
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .48em no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 .48em no-repeat;
     color:#000000;
     padding-bottom:3px;
     padding-left:5px;
@@ -1126,7 +1126,7 @@ table.ptabelleblank .links {
     vertical-align:top;
 }
 table.ptabelleblank .links a:link,table.ptabelleblank .links a:active,table.ptabelleblank .links a:visited {
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .55em no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 .55em no-repeat;
     display:block;
     line-height:1.45em;
     margin-left:5px;
@@ -1204,7 +1204,7 @@ table.tabelle1 .link {
     width:125px;
 }
 table.tabelle1 .link a:link,table.tabelle1 .link a:active,table.tabelle1 .link a:visited {
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .36em no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 .36em no-repeat;
     color:#009682;
     display:block;
     padding-left:5px;
@@ -1293,7 +1293,7 @@ table.tabelle2 .themen ul {
     margin:0;
 }
 table.tabelle2 .themen li {
-    background:url(/_layouts/studium/img/td3list_dot.gif) 0 .5em no-repeat;
+    background:url(../images/td3list_dot.gif) 0 .5em no-repeat;
     padding-left:9px;
 }
 
@@ -1334,7 +1334,7 @@ table.tabelle3 .link {
 }
 table.tabelle3 .link a:link,table.tabelle3 .link a:active,table.tabelle3 .link a:visited {
     font-weight:700;
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 .36em no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 .36em no-repeat;
     color:#009682;
     /* display:block; */
     padding-left:5px;
@@ -1510,7 +1510,7 @@ table.newstabelle .text {
     width:564px;
 }
 table.newstabelle .text a:link,table.newstabelle .text a:active,table.newstabelle .text a:visited,.newstext a:link,.newstext a:visited,.newstext a:active {
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 5px no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 5px no-repeat;
     padding-left:6px;
     text-decoration:none;
 }
@@ -1558,7 +1558,7 @@ table.newstabelle .text a:hover,.newstext a:hover {
     list-style-position:inside;
 }
 .news .text a:link, .news .text a:active, .news .text a:visited{
-/*    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 5px no-repeat;
+/*    background:url(../images/arrow_dunkelgruen.gif) 0 5px no-repeat;
     padding-left:6px;
     text-decoration:none;*/
 }
@@ -1566,7 +1566,7 @@ table.newstabelle .text a:hover,.newstext a:hover {
     text-decoration:none;
 }
 .news .text .link {
-    background:url(/_layouts/studium/img/arrow_dunkelgruen.gif) 0 5px no-repeat;
+    background:url(../images/arrow_dunkelgruen.gif) 0 5px no-repeat;
     padding-left:6px;
     text-decoration:none;
 }
@@ -1660,7 +1660,7 @@ table.kalender .today a {
 
 /* FZK Startseiten Box */
 div.fzkbox {
-    background:url(/_layouts/studium/img/logo_fzk.gif) 0 0 no-repeat;
+    background:url(../images/logo_fzk.gif) 0 0 no-repeat;
     color:#000000;
     font-size:.91em;
     line-height:1.15em;
@@ -1686,7 +1686,7 @@ div.fzkbox a:hover,div.fzkbox span.klein a:hover {
 
 /* Uni Startseiten Box */
 div.unibox {
-    background:url(/_layouts/studium/img/logo_uni.gif) 0 0 no-repeat;
+    background:url(../images/logo_uni.gif) 0 0 no-repeat;
     color:#000000;
     font-size:.91em;
     line-height:1.25em;
@@ -1915,14 +1915,14 @@ p {
 }
 #menu-box .li_level_1_selected_no_children {
     padding-bottom: 5px;
-    background-image: url(/_layouts/studium/img/left_navi_V2.gif);
+    background-image: url(../images/left_navi_V2.gif);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-color: #009682;
 }
 #menu-box .li_level_1_selected_children {
     padding-bottom: 5px;
-    background-image: url(/_layouts/studium/img/left_navi_V2.gif);
+    background-image: url(../images/left_navi_V2.gif);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-color: #d9efec;
@@ -1939,7 +1939,7 @@ p {
 }
 #menu-box .li_level_1_not_selected {
     padding-bottom: 5px;
-    background-image: url(/_layouts/studium/img/left_navi_V2.gif);
+    background-image: url(../images/left_navi_V2.gif);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-color: #ffffff;
@@ -1975,12 +1975,12 @@ p {
     border-bottom: 0;
 }
 #menu-box .has_children_open {
-    background-image: url(/_layouts/studium/img/navi_level_1_open.gif);
+    background-image: url(../images/navi_level_1_open.gif);
     background-repeat: no-repeat;
     background-position: 6px 8px;
 }
 #menu-box ul li ul li .has_children_open {
-    background-image: url(/_layouts/studium/img/navi_open.gif);
+    background-image: url(../images/navi_open.gif);
 }
 * html #menu-box ul li .has_children_open {
     background-position: 8px 10px;
@@ -1991,12 +1991,12 @@ p {
 #menu-box .has_children_closed {
     /* padding-bottom: 0; */
     border-bottom: 0;
-    background-image: url(/_layouts/studium/img/navi_level_1_closed.gif);
+    background-image: url(../images/navi_level_1_closed.gif);
     background-repeat: no-repeat;
     background-position: 6px 6px;
 }
 #menu-box ul li ul li .has_children_closed {
-    background-image: url(/_layouts/studium/img/navi_closed.gif);
+    background-image: url(../images/navi_closed.gif);
 }
 * html #menu-box ul li .has_children_closed {
     background-position: 8px 8px;
