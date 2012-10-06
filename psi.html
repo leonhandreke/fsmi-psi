@@ -307,8 +307,8 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
 			</div>
 
 			<div hidden="true" id="auswahl">
-			Veranstaltung:
 			<form onsubmit="return ergebnis();" method="GET">
+			Veranstaltung:
 			    <select name="top5" style="width:50ex" size="1">
 			      <option>Informatik Bachelor (komplett)</option>
 			      <option>Informatik Master (komplett)</option>
@@ -328,7 +328,10 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
 			<tr><th align="right"><strong>Vorname:</strong></th> <td>Mathhias</td></tr>
 			<tr><th align="right"><strong>Matrikelnummer:</strong></th> <td>1668722</td></tr>
 			<tr><th align="right"><strong>Änderung:</strong></th> <td>
-				<input type="text" /> <input type="submit" value="Ändern" />				</td></tr>
+				<input type="text" />
+				<input type="submit" value="Ändern" />
+				<input type="reset" value="Abbrechen" />
+				</td></tr>
 			</table>
 			</form>
 			</div>
